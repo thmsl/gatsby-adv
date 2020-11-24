@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Typography } from "@material-ui/core";
+import { Link } from "gatsby-theme-material-ui";
 
 function PostListing({ postEdges }) {
   const postList = [];
@@ -21,7 +22,7 @@ function PostListing({ postEdges }) {
         /* Your post list here. */
         postList.map((post) => (
           <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
+            <Typography>{post.title}</Typography>
           </Link>
         ))
       }
