@@ -9,7 +9,7 @@ const config = {
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Blockpass KYC-as-a-Service", // Title of the RSS feed
   siteFBAppID: "", // FB Application ID for using app insights
-  googleAnalyticsID: "", // GA tracking ID.
+  googleAnalyticsID: "blabla", // GA tracking ID.
   disqusShortname: "", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
