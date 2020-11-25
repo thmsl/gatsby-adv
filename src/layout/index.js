@@ -17,7 +17,7 @@ export default function MainLayout({ children }) {
       </Helmet>
       <Header />
       <Container maxWidth="lg">
-        <Box my={4}>{children}</Box>
+        <Box my={4} style={{paddingTop: 130, minHeight: 800}}>{children}</Box>
       </Container>
       <Footer config={config} />
     </>

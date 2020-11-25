@@ -14,7 +14,7 @@ function Landing({ data }) {
         <div className="posts-container">
           <Helmet title={config.siteTitle} />
           <SEO />
-          <PostListing postEdges={postEdges} />
+          <PostListing postEdges={postEdges} style={{minHeight: 1000}}/>
         </div>
       </div>
     </Layout>
