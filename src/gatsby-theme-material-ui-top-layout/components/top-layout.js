@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider } from "@material-ui/core/styles";
-import theme from '../theme';
+import theme from "../theme";
 //import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 // export function TopLayout(props) {
@@ -53,9 +53,9 @@ export default function TopLayout(props) {
         />
       </Helmet>
       <ThemeProvider theme={theme}>
-      <CssBaseline />
-      {props.children}
-    </ThemeProvider>
+        <CssBaseline />
+        {props.children}
+      </ThemeProvider>
     </React.Fragment>
   );
 }

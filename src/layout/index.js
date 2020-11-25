@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Header from '../components/Header/Header';
+import Footer from "../components/Footer/Footer";
 
 export default function MainLayout({ children }) {
   return (
@@ -18,6 +19,7 @@ export default function MainLayout({ children }) {
       <Container maxWidth="lg">
         <Box my={4}>{children}</Box>
       </Container>
+      <Footer config={config} />
     </>
   );
 }

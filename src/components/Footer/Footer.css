@@ -1,25 +1,141 @@
-.footer {
-  justify-content: center;
-  align-content: center;
-  padding: 10px 5px 5px;
-}
+/* default */
+@media only screen and (min-width: 1px) {
+  footer {
+    padding: 40px 0;
+    font-size: 1em;
+    color: #aaaaaa;
+    line-height: 1.5em;
+    width: 100%;
+    background: #414141;
+    text-align: left;
+  }
+  .footercontainer {
+    max-width: 1085px;
+    margin: auto;
+  }
+  .copyright {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .copyright p {
+    opacity: 0.3;
+    font-size: 1em;
+    padding: 0;
+  }
+  .copyright a {
+    margin-right: 25px;
+  }
+    
+  footer a {
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
 
-.notice-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  margin-top: 25px;
-}
+  .footersocial a {
+    padding-right: 0;
+    font-size: 1em;
+    color: #bbbbbb;
+    margin-right: 15px;
+  }
+  .footersocial a:hover {
+    color: #ffffff;
+  }
 
-@media (max-width: 640px - 1px) {
-  .notice-container {
-    justify-content: space-around;
+  footer .col5 {
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    footer .col5 {
+      width: 33%;
+    }
+
+    footer .col5:nth-child(3n + 1) {
+      clear: both;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    footer .col5 {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  footer ul {
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  footer ul li {
+    padding-bottom: 7px;
+  }
+  footer ul li a,
+  footer ul li.current-menu-item a {
+    color: #aaaaaa !important;
+  }
+
+  footer img {
+    float: left;
+    display: inline;
+    height: 36px;
+    opacity: 0.4;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+  }
+  footer img:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+  }
+  footer img.apple {
+    float: left;
+    display: inline;
+    margin-left: 15px;
+  }
+  footer .secondrow {
+    padding-top: 35px;
+  }
+  footer .secondrow i {
+    font-size: 2em;
+    padding-left: 15px;
+  }
+  footer p {
+    clear: both;
+    font-size: 0.62em;
   }
 }
 
-.notice-container h4 {
-  text-align: center;
-  margin: 0;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .outerframe {
+    transform: inherit;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

@@ -47,7 +47,7 @@ function Header({ config }) {
 
   return (
     <div className="menuBar">
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar className="toolbar">
           <MainLogo />
 

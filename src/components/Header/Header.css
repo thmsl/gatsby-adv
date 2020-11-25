@@ -98,12 +98,6 @@
   }
 
   /* MENU items */
-
-  .menuBar .logo {
-    width: 200px;
-    height: auto;
-    padding-top: 20px;
-  }
   .menuBar ul,
   .menuBar li {
     padding: 0;
@@ -121,11 +115,6 @@
   .menuBar a {
     color: #ffffff;
     display: block;
-  }
-  .menuBar a.discover {
-    padding-bottom: 42px;
-  }
-  .menuBar a {
     text-decoration: none;
     font-weight: 700;
     margin: 0 10px;
@@ -191,7 +180,8 @@
     left: 0;
     min-height: 324px;
     justify-content: space-evenly;
-    box-shadow: 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14);
+    box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.2), 0px 6px 5px 0px rgba(0,0,0,0.14), 0px 8px 10px 0px rgba(0,0,0,0.12);
+    z-index: 1099;
   }
   .menubutton {
     display: block;
