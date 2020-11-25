@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash";
-import { Link } from "gatsby";
+import { Link } from "gatsby-theme-material-ui";
 
 function PostTags({ tags }) {
   return (

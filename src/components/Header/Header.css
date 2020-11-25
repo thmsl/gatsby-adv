@@ -1,0 +1,257 @@
+/* default */
+@media only screen and (min-width: 1px) {
+  .menuBar {
+    background-color: #488cff;
+  }
+  .el {
+    width: 10px;
+    height: 10px;
+    background: white;
+  }
+
+  .outerframe {
+    position: relative;
+    padding: 20px;
+    transform: scale(.75) translate(-19%, 0)
+  }
+
+  .logoframe {
+    position: relative;
+    height: 60px;
+  }
+
+  .multiple-targets-01 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+  }
+
+  .multiple-targets-02 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+  }
+
+  .multiple-targets-03 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .multiple-targets-04 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .multiple-targets-05 {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .multiple-targets-06 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .multiple-targets-07 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    height: 18px;
+    width: 200px;
+    padding-left: 8px;
+    background: none;
+  }
+
+  .multiple-targets-07 img {
+    height: 16px;
+    width: auto;
+    opacity: 1;
+    padding-top: 1px;
+  }
+
+  .multiple-targets-07 img.over {
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    left: 8px;
+    z-index: 2;
+  }
+
+  .multiple-targets-07 img.under {
+    opacity: 1;
+  }
+
+  /* MENU items */
+  .menuBar ul,
+  .menuBar li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  .menuBar ul {
+    padding-top: 31px;
+    float: right;
+    padding-right: 30px;
+  }
+  .menuBar a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 10px;
+  }
+  .menuBar a:hover {
+    text-decoration: underline;
+  }
+  .menuBar a.signupopen:hover {
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    font-size: 14px;
+  }
+  .dropdown-content a {
+    color: #488cff;
+    text-decoration: none;
+  }
+  .dropdown-content a h2 {
+    color: rgb(65, 65, 65);
+    transition: color 0.5s ease;
+  }
+  .dropdown-content a:hover h2{
+    color: #488cff;
+  }  
+  .MuiPopover-paper {
+    max-width: 100% !important;
+    left: 0 !important;
+  }
+
+  .MuiListItem-button:hover {
+    text-decoration: none;
+    background-color: inherit !important;
+    cursor: inherit;
+  }
+  .MuiMenuItem-root {
+    white-space: inherit !important;
+  }
+
+  .mb-0 {
+    margin-bottom: 0;
+  }
+
+  .toolbar {
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+  }
+  .menuitem {
+    min-width: 100vw;
+  }
+  .title {
+    margin: 5px !important;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    background-color: #488cff;
+    width: 100%;
+    left: 0;
+    min-height: 324px;
+    justify-content: space-evenly;
+    box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.2), 0px 6px 5px 0px rgba(0,0,0,0.14), 0px 8px 10px 0px rgba(0,0,0,0.12);
+    z-index: 1099;
+  }
+  .menubutton {
+    display: block;
+  }
+  .toolbar {
+    width: 100%;
+  }
+  .aboutlink{
+    align-items: center;
+    display: flex;
+  }
+  .arrowmenu {
+    position: absolute;
+    bottom: -10px;
+    display: block;
+    width: 73px;
+    height: 40px;
+    z-index: 100000;
+    margin: 0;
+    background: url(http://localhost:8000/assets/nav-arrow.svg) center bottom no-repeat;
+    background-size: 50px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .outerframe {
+    transform: inherit;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .outerframe {
+    transform: scale(1);
+  }
+  .toolbar {
+    min-width: 1170px;
+  }
+  .menu {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    min-height: auto;
+    top: auto;
+    width: auto;
+    box-shadow: inherit;
+  }
+  .menubutton {
+    display: none !important;
+  }
+  .dropdown-content {
+    font-size: inherit;
+    max-width: 1070px;
+    margin: auto;
+  }
+  .aboutlink{
+    height: 100px;
+  }
+}

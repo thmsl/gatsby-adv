@@ -36,8 +36,8 @@ export default function PostTemplate({ data, pageContext }) {
             <SocialLinks postPath={slug} postNode={postNode} />
           </div>
           <UserInfo config={config} />
-          <Disqus postNode={postNode} />
-          <Footer config={config} />
+          {/* <Disqus postNode={postNode} /> */}
+          {/* <Footer config={config} /> */}
         </div>
       </div>
     </Layout>

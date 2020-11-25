@@ -25,6 +25,14 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
+      resolve: "gatsby-theme-material-ui",
+      options: {
+        stylesConfig: {
+          disableAutoprefixing: true,
+        },
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
