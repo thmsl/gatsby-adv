@@ -10,8 +10,9 @@
     text-align: left;
   }
   .footercontainer {
-    max-width: 1085px;
+    max-width: 1160px;
     margin: auto;
+    padding: 0 20px;
   }
   .copyright {
     margin-top: 20px;

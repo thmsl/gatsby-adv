@@ -25,3 +25,27 @@ body {
   display: flex;
   padding: 20px;
 }
+.anglebox {
+  width: 100%;
+  height: 80px;
+  margin: 0 0 0 0;
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+}
+.anglebox_bg {
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 18%, 0 100% );
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  z-index: 0;
+  background: #488cff;
+}
+
+a {
+  color: #488cff;
+}

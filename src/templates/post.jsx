@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+import Container from "@material-ui/core/Container";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
@@ -20,6 +21,10 @@ export default function PostTemplate({ data, pageContext }) {
     post.id = slug;
   }
 
+  const date = new Date(post.date)
+  const month = new Intl.DateTimeFormat('en-US', {month: 'long'}).format(date)
+  const dateMY = `${month} ${date.getFullYear()}`
+
   return (
     <Layout>
       <div>
@@ -27,17 +32,21 @@ export default function PostTemplate({ data, pageContext }) {
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <div>
-          <h1>{post.title}</h1>
+        <div className="anglebox">
+          <div className="anglebox_bg ">
+          </div>
+        </div>
+        <div className="postcontainer">
+          <h2 className="blogtitle">Media</h2>
+          <div className="category"><a href={`/categories/${post.category}/`}>{post.category}</a></div>
+          <h1 className="title">{post.title}</h1>
+          <div className="date">{dateMY}</div>
+          <SocialLinks postPath={slug} postNode={postNode} />
           {/* eslint-disable-next-line react/no-danger */}
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-          <div className="post-meta">
-            <PostTags tags={post.tags} />
-            <SocialLinks postPath={slug} postNode={postNode} />
-          </div>
-          <UserInfo config={config} />
-          {/* <Disqus postNode={postNode} /> */}
-          {/* <Footer config={config} /> */}
+          <div dangerouslySetInnerHTML={{ __html: post.intro }} style={{fontWeight:"bold"}}/>
+          <br />
+          <div dangerouslySetInnerHTML={{ __html: post.text ? post.text.toString().replace(/(?:\r\n|\r|\n)/g, '<br />') : ''}} />
         </div>
       </div>
     </Layout>
@@ -57,6 +66,8 @@ export const pageQuery = graphql`
         date
         category
         tags
+        intro
+        text
       }
       fields {
         slug

@@ -11,7 +11,7 @@
 
   .outerframe {
     position: relative;
-    padding: 20px;
+    padding: 20px 0;
     transform: scale(.75) translate(-19%, 0)
   }
 
@@ -128,6 +128,7 @@
 
   .dropdown-content {
     font-size: 14px;
+    padding: 0 20px;
   }
   .dropdown-content a {
     color: #488cff;
@@ -153,6 +154,9 @@
   .MuiMenuItem-root {
     white-space: inherit !important;
   }
+  header.MuiPaper-root{
+    box-shadow: none !important;
+  }
 
   .mb-0 {
     margin-bottom: 0;
@@ -166,7 +170,7 @@
   .menuitem {
     min-width: 100vw;
   }
-  .title {
+  .menuitem .title {
     margin: 5px !important;
   }
   .menu {
@@ -195,14 +199,14 @@
   }
   .arrowmenu {
     position: absolute;
-    bottom: -10px;
+    bottom: -1px;
     display: block;
     width: 73px;
     height: 40px;
     z-index: 100000;
     margin: 0;
     background: url(http://localhost:8000/assets/nav-arrow.svg) center bottom no-repeat;
-    background-size: 50px;
+    background-size: 20px;
   }
 }
 
@@ -232,7 +236,7 @@
     transform: scale(1);
   }
   .toolbar {
-    min-width: 1170px;
+    min-width: 1160px;
   }
   .menu {
     display: flex;
@@ -248,7 +252,7 @@
   }
   .dropdown-content {
     font-size: inherit;
-    max-width: 1070px;
+    max-width: 1160px;
     margin: auto;
   }
   .aboutlink{

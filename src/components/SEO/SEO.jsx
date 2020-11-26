@@ -42,10 +42,11 @@ function SEO({ postNode, postPath, postSEO }) {
 
     if (!postNode.frontmatter.date) return null;
 
+
     return moment(postNode.frontmatter.date, config.dateFromFormat).toDate();
   };
-
-  image = getImagePath(image);
+  
+  if (image) image = getImagePath(image);
 
   const datePublished = getPublicationDate();
 

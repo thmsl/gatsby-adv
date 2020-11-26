@@ -132,8 +132,15 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Generate a list of categories
     if (edge.node.frontmatter.category) {
-      categorySet.add(edge.node.frontmatter.category);
+      edge.node.frontmatter.category.forEach((category) => {
+        categorySet.add(category);
+      });
     }
+
+    // Generate a list of categories
+    // if (edge.node.frontmatter.category) {
+    //   categorySet.add(edge.node.frontmatter.category);
+    // }
 
     // Create post pages
     const nextID = index + 1 < postsEdges.length ? index + 1 : 0;
