@@ -70,8 +70,7 @@ export const listingQuery = graphql`
           timeToRead
           frontmatter {
             title
-            tags
-            cover
+            tag
             date
           }
         }

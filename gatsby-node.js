@@ -67,7 +67,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               title
-              tags
+              tag
               category
               date
             }
@@ -133,8 +133,8 @@ exports.createPages = async ({ graphql, actions }) => {
   // Post page creating
   postsEdges.forEach((edge, index) => {
     // Generate a list of tags
-    if (edge.node.frontmatter.tags) {
-      edge.node.frontmatter.tags.forEach((tag) => {
+    if (edge.node.frontmatter.tag) {
+      edge.node.frontmatter.tag.forEach((tag) => {
         tagSet.add(tag);
       });
     }

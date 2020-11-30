@@ -56,18 +56,18 @@ export default function PostTemplate({ data, pageContext }) {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: {slug: {eq: $slug}}, frontmatter: {language: {in: "English"}} ) {
       html
       timeToRead
       excerpt
       frontmatter {
         title
-        cover
         date
         category
-        tags
+        tag
         intro
         text
+        language
       }
       fields {
         slug

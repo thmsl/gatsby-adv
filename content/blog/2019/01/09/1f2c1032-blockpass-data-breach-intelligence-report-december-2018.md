@@ -1,0 +1,77 @@
+---
+title: 'Blockpass Data Breach Intelligence Report &#8211; December 2018'
+date: '2019-01-09T14:54:30+00:00'
+status: publish
+permalink: /2019/01/09/blockpass-data-breach-intelligence-report-december-2018
+author: 'David Langellotti'
+excerpt: ''
+type: post
+id: 2070
+thumbnail: ../../../../../uploads/2019/07/Reports-e1567655805102-150x150.jpg
+category:
+    - Blog
+tag:
+    - AML
+    - 'best KYC'
+    - Blockpass
+    - Compliance
+    - compliant
+    - 'Customer Onboarding'
+    - 'data breaches'
+    - 'data security'
+    - 'digital identity'
+    - 'identity management solution'
+    - 'identity verification'
+    - 'Know your customer'
+    - KYC
+    - 'KYC solution'
+    - Regtech
+    - Regulations
+    - 'Safe KYC'
+    - 'seamless kyc'
+    - 'security tokens'
+    - STO
+post_format: []
+language:
+    - English
+post_translations:
+    - pll_5c5c2c47e00d9
+region:
+    - ''
+ogtitle:
+    - 'Blockpass Data Breach Intelligence Report - December 2018'
+ogdescription:
+    - 'Blockpass Data Breach Intelligence Report - December 2018'
+ogimage:
+    - '1295'
+custom_image:
+    - 'Yes'
+text_lines:
+    - '1'
+og_image_opacity:
+    - '100'
+og_image_line_1_text:
+    - ''
+og_image_line_2_text:
+    - ''
+og_image_line_3_text:
+    - ''
+header_image:
+    - ''
+intro:
+    - "In December, the Blockpass Research Team analyzed 9 data breach events, chosen either for their significant impact on consumers, or their implication on global politics. Five of these events affected private companies while\_public institutions accounted for the remaining four."
+text:
+    - "In December, the Blockpass Research Team analyzed 9 data breach events, chosen either for their significant impact on consumers, or their implication on global politics. Five of these events affected private companies while\_public institutions accounted for the remaining four.\r\n\r\nAt least five of these events were the result of hacks on the part of malicious actors.\_Among the events analyzed were two that concerned highly sensitive government institutions. NASA was subject to another in a series of attacks, although this one seems not to have had any effect on the administration’s mission. In South Korea, a center that is meant to serve the interests of highly-vulnerable North Korean defectors had its database stolen, potentially putting the lives of thousands of individuals who remain in the north at risk.\r\n<table style=\"padding: 5px; border: 1px solid black;\">\r\n<tbody>\r\n<tr>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\"><strong># of Events Analyzed</strong></td>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\"><span style=\"font-weight: 400;\">9</span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\"><strong># of Identities Lost</strong></td>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\"><span style=\"font-weight: 400;\">approx. 158,894,445</span></td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\"><strong>% of World Population</strong></td>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\">2.1%</td>\r\n</tr>\r\n<tr>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\"><strong>Industry Hardest Hit</strong></td>\r\n<td style=\"padding: 5px; border: 1px solid black; border-collapse: collapse;\">Social Media</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\nThis report, for the month of December, is the second in our monthly Data Breach Intelligence Reports which are being posted here on the Blockpass blog. We encourage\_the Blockpass community and anyone who might otherwise interested to let us know what kinds of information they would like to see provided in future reports by contacting us at marketing@blockpass.org under the subject line “Suggestions for the blog.”\r\n\r\n<strong>Quora | Worldwide | 100 Million</strong>\r\nMonday, December 3rd, the popular question-and-answer social network, Quora, announced that it had discovered a major security breach a few days before, on November 30th. The company admitted that as many as 100 Million users may have been affected. Stolen information includes user names, email addresses, and encrypted passwords.\r\n\r\nAccording to company records, the majority of accessed information were already publicly available user-submitted questions and answers. Quora CEO Adam D’Angelo admitted that the breach had been a hack carried out by some “malicious third party.” D’Angelo claims that the company has already taken pains to address the issue.\r\n\r\n<em>Source:<a href=\"https://edition.cnn.com/2018/12/03/tech/quora-hack-data-breach/index.html\"> https://edition.cnn.com/2018/12/03/tech/quora-hack-data-breach/index.html</a></em>\r\n\r\n<strong>Google+ | Worldwide | 52.5 Million</strong>\r\nA major security breach in Google’s social network meant that developers had access to user information even in those cases where the profiles were set to \"private\". Developers had access to user names, ages, occupations, and email addresses. The bug was live for six days, between November 7th and November 13th. The bug was discovered during regular checks and was immediately fixed.\r\n\r\nOriginally, Google had planned to shut down their social network by August, but, as a result of the data breach, have decided to accelerate the process by four months. Additionally, the API that had caused the vulnerability is set to be taken offline within 90 days.\r\n\r\n<em>Source: <a href=\"https://www.theverge.com/2018/12/10/18134541/google-plus-privacy-api-data-leak-developers\">https://www.theverge.com/2018/12/10/18134541/google-plus-privacy-api-data-leak-developers</a></em>\r\n\r\n<strong>Facebook | Worldwide | 5.6 Million</strong>\r\nFacebook announced on December 15th that a bug in their Photo API gave app developers too much access to user photos. Applications that would normally only collect timeline photos also collected photos from Stories, the Marketplace, and from the dashboard to which users upload their photos prior to sharing them.\r\n\r\nThe breach, which was in violation of GDPR and other global regulations, occurred for 12 days, starting September 13th. According to a spokesperson, the bug was discovered on September 25th. Why Facebook failed to notify users until mid-December remains unclear.\r\n\r\n<em>Source:<a href=\"https://techcrunch.com/2018/12/14/facebook-photo-bug/\"> https://techcrunch.com/2018/12/14/facebook-photo-bug/</a></em>\r\n\r\n<strong>San Diego Unified School District | United States | 500,000</strong>\r\nOn December 21st it was announced that the personal data of over 500,000 San Diego Unified School District students and staff had been stolen by an anonymous hacker. The data breach was the direct result of a phishing attack. Suspicious emails were first noticed by school district employees in October and investigators have found that the hacker had access to personal data from January until November. Data stolen goes back to the 2008-2009 school year.\r\n\r\nThe late response and announcement following the discovery has been attributed to the investigation itself. Investigators did not want the hackers to be aware that the breach was discovered right away, so that their behaviour might lead to their location and arrest.\r\n\r\nAt the time of reporting, no arrests have been made. Stolen data includes all types of personally identifiable and financial information, such as names, dates of birth, addresses, social security numbers, ID numbers, tax information, and bank details.\r\n\r\n<em>Source: <a href=\"https://www.zdnet.com/article/hacker-steals-10-years-worth-of-data-from-san-diego-school-district/\">https://www.zdnet.com/article/hacker-steals-10-years-worth-of-data-from-san-diego-school-district/</a></em>\r\n\r\n<strong>Nova Entertainment | Australia | 261,948</strong>\r\nIt was announced on December 28th that Nova Entertainment, a company which has radio stations in the Australian cities of Sydney, Melbourne, Brisbane, Adelaide and Perth, had been subject to a major data breach affecting 261,948 listeners across the country. Leaked data included usernames, home addresses, emails, phone numbers, genders, dates of birth, and encrypted passwords.\r\n\r\nWhile the leak has occurred recently, it only concerns a dataset from May 2009 to October 2011. Details on who may have accessed the leaked data and whether this was a malicious attack has not been publicized. Nova Entertainment has informed, and is cooperating with, relevant authorities.\r\n\r\n<em>Source: <a href=\"https://www.smh.com.au/business/companies/nova-warns-listeners-of-major-data-breach-affecting-250-000-listeners-20181228-p50omw.html\">https://www.smh.com.au/business/companies/nova-warns-listeners-of-major-data-breach-affecting-250-000-listeners-20181228-p50omw.html</a></em>\r\n\r\n<strong>Victorian State Government | Australia | 30,000</strong>\r\nAt the end of December it was reported that 30,000 employees of the state government in Victoria, Australia, had had their personal and work details stolen by an unknown malicious party. Stolen data includes employee emails, phone numbers, and job titles. Particularly sensitive personal data, such as banking information, seems not to have been leaked.\r\n\r\nWhen exactly the attack occurred has not been publicly reported but state officials have notified employees, the relevant authorities and investigative units. While this particular attack may not have any immediate and direct negative consequences on victims, it potentially opens the door to larger issues. The 30,000 released emails, for example, may be targeted by thousands of phishing attacks.\r\n\r\n<em>Source: <a href=\"https://www.abc.net.au/news/2019-01-01/victorian-government-employee-directory-data-breach/10676932\">https://www.abc.net.au/news/2019-01-01/victorian-government-employee-directory-data-breach/10676932</a></em>\r\n\r\n<strong>9/11 Victim Hack | United States | 1,500</strong>\r\nA group of hackers has succeeded in stealing 18,000 documents from a law firm advising Hiscox Syndicates Ltd, an insurer that is handling cases related to the September 11th attacks. Hiscox Syndicates, which is currently handling the cases of about 1500 US-based commercial insurance policyholders that may have been\_ affected by the attacks, claims that their own security infrastructure remains secure.\r\n\r\nThe group of hackers calling themselves “The Dark Overlord” seems to have carried out the attack in order to gain some sort of leverage in support of a set of 9/11 conspiracy theories, and to extort an undisclosed ransom fee. While the hack had previously been partially reported in 2018, the actual severity had not been publicly disclosed until now.\r\n\r\n<em>Source: <a href=\"https://motherboard.vice.com/en_us/article/yw79k5/hacker-group-threatens-dump-911-insurance-files-dark-overlord\">https://motherboard.vice.com/en_us/article/yw79k5/hacker-group-threatens-dump-911-insurance-files-dark-overlord</a></em>\r\n\r\n<strong>NK Defector Database | South Korea | 997</strong>\r\nNormally our report focuses on data breaches that negatively impact the lives of the customers or employees of public and private organizations. This is not the case with the breach widely reported on December 28th which affected 997 highly vulnerable defectors from North Korea who had entrusted their data to the South Korean Ministry of Unification.\r\n\r\nThe defectors had entrusted the data to their local Hana center, in the province of Gyeongbuk. Hana centers are special facilities designed to help defectors to integrate into South Korean society. Across the country, these facilities support around 30,000 individuals. \_While Hana centers are generally managed by the Ministry of Unification, this particular center was privately run.\r\n\r\nA preliminary investigation found that the breach was likely the result of a phishing attack. The data would have been leaked when a Hana center employee opened a malicious attachment to an email. Officials say that the attack occurred sometime in November and that the released data identifies all defectors supported by the Hana center in Gyeongbuk. The data has not been released to the public.\r\n\r\nThere is a fair amount of speculation that the phishing attack may have been a malicious act on the part of the North Korean government. \_If this is the case, any family members of defectors that might remain in the North may have been put at risk of life-threatening persecution.\r\n\r\n<em>Source: <a href=\"https://www.bankinfosecurity.com/data-breach-leaks-1000-north-korean-defectors-details-a-11905\">https://www.bankinfosecurity.com/data-breach-leaks-1000-north-korean-defectors-details-a-11905</a></em>\r\n\r\n<strong>NASA | United States | Undisclosed</strong>\r\nOn December 19th it was widely reported that the personal information of NASA employees going back as far as 2006 had been hacked. NASA officials indicated that they have been aware of the attack and have been carrying out a probe since October 23rd.\r\n\r\nIn an email sent to NASA staff, it was indicated that such sensitive information as social security information had been made vulnerable, in addition to general personal identification information, such as names. Officials have claimed that the hack should not have negatively affected any NASA mission.\r\n\r\n<em>Source: <a href=\"https://www.zdnet.com/article/nasa-discloses-data-breach/\">https://www.zdnet.com/article/nasa-discloses-data-breach/</a></em>"
+media_page_text:
+    - ''
+pinned:
+    - 'no'
+metatitle:
+    - 'Blockpass Data Breach Intelligence Report - December 2018'
+metadescription:
+    - "In December, the Blockpass Research Team analyzed 9 data breach events, chosen either for their significant impact on consumers, or their implication on global politics. Five of these events affected private companies while\_public institutions accounted for the remaining four."
+metakeywords:
+    - 'AML, Compliance, Blockpass, Customer Onboarding, Digital identity, identity management solution, Identity Verification, Know your customer, KYC, regtech, security tokens, sto, data breaches, data security, safe KYC, seamless KYC, best KYC, KYC solution, compliant, regulations '
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml encoding="UTF-8">

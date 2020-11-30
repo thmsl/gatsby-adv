@@ -1,5 +1,5 @@
 const config = {
-  siteTitle: "KYC-as-a-Service for Regulated Industries | Seamless onboarding of your customers using the Blockpass secure eKYC system.  | Blockpass", // Site title.
+  siteTitle: "Blockpass", // Site title.
   siteTitleShort: "Blockpass", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Seamless onboarding of your customers using the Blockpass secure eKYC system.", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.

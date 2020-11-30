@@ -1,0 +1,84 @@
+---
+title: 'The Importance of Embracing New Technology. Part Two: The Benefits and Dangers of Innovation'
+date: '2019-01-10T15:56:37+00:00'
+status: publish
+permalink: /2019/01/10/the-importance-of-embracing-new-technology-part-two-the-benefits-and-dangers-of-innovation
+author: 'Matthew Warner'
+excerpt: ''
+type: post
+id: 2074
+thumbnail: ../../../../../uploads/2018/08/28-150x150.jpg
+category:
+    - Blog
+tag:
+    - AML
+    - 'best KYC'
+    - Blockchain
+    - 'blockchain verification'
+    - Blockpass
+    - 'Client On-Boarding'
+    - 'Client Onboarding'
+    - Compliance
+    - Crypto
+    - Cryptocurrency
+    - 'Customer Onboarding'
+    - 'digital identity'
+    - ethecal
+    - 'fast kyc'
+    - Identity
+    - 'Identity Check'
+    - 'identity management solution'
+    - 'identity verification'
+    - 'Know your customer'
+    - KYC
+    - 'KYC Connect'
+    - PASS
+    - Regtech
+    - 'seamless kyc'
+    - 'security tokens'
+    - 'Simple KYC'
+    - STO
+post_format: []
+language:
+    - English
+post_translations:
+    - pll_5c5c56ea8c441
+region:
+    - ''
+ogtitle:
+    - 'The Importance of Embracing New Technology. Part Two: The Benefits and Dangers of Innovation'
+ogdescription:
+    - 'As developments over the past few years have shown, we are in a time of unprecedented technological growth which shows no signs of slowing down. '
+ogimage:
+    - '1104'
+custom_image:
+    - 'Yes'
+text_lines:
+    - '1'
+og_image_opacity:
+    - '100'
+og_image_line_1_text:
+    - ''
+og_image_line_2_text:
+    - ''
+og_image_line_3_text:
+    - ''
+header_image:
+    - '1104'
+intro:
+    - 'As developments over the past few years have shown, we are in a time of unprecedented technological growth which shows no signs of slowing down. '
+text:
+    - "<p id=\"99f4\" class=\"graf graf--p graf-after--figure\">As developments over the past few years have shown, we are in a time of unprecedented technological growth which shows no signs of slowing down. This has caused upset and disruption on a huge scale as the impact of new, cutting-edge technology is beginning to be seen now in every industry. As with any technological revolution, in order to avoid being made obsolete, existing companies will need to ensure they take advantage of these new opportunities to improve their business, products and services. If they don’t, newer and more consumer friendly options will be chosen by the customer.</p>\r\n<p id=\"d613\" class=\"graf graf--p graf-after--p\">In this series of blogs, we will examine the impact that the introduction of a new technology has and the changes that are occurring with the arrival of blockchain and other disruptive technologies. As part of this investigation, the importance and the benefits of implementing new technology solutions will be discussed, along with the dangers of ignoring them. As well as this, the articles will look at a previous example of a disruptive new technology — the internet — and how it changed industries, along with the possible lessons that can be learned and applied to this new technological revolution. Additionally, some of the new technologies, and how industries can best prepare to adapt to their upcoming impact, will be discussed. Along the way, we’ll also explain how Blockpass fits into all of this.</p>\r\n<p id=\"1e0c\" class=\"graf graf--p graf-after--p\">For this second instalment we look at how and why innovation can both benefit companies but also cause issues, alongside what happens to those that don’t innovate.</p>\r\n<p id=\"d85d\" class=\"graf graf--p graf-after--p\">Find the first part of the blog — The Importance of Embracing New Technology. Part One: Introduction,\_<a href=\"https://www.blockpass.org/2018/07/23/the-importance-of-embracing-new-technology-part-one-introduction/\" target=\"_blank\" rel=\"noopener\">here</a>.</p>\r\n<p id=\"2dca\" class=\"graf graf--p graf-after--p\">•Why do innovators succeed?</p>\r\n<p id=\"e8ec\" class=\"graf graf--p graf-after--p\">There are a number of ways in which innovation allows companies to realise benefits. The main benefits of new technology can be:</p>\r\n<p id=\"6233\" class=\"graf graf--p graf-after--p\">-Freeing up time. Using developments in technology to run things faster or to replace slower, outdated processes allows for that time to be spent on more useful pursuits.</p>\r\n<p id=\"858d\" class=\"graf graf--p graf-after--p\">-Saving money. In saving time, wasted money that was spent on slower procedures can be reallocated and future waste can be avoided. Cost savings are realised when more efficient methods are employed — using e-mails over letters for example.</p>\r\n<p id=\"8b35\" class=\"graf graf--p graf-after--p\">-Allowing companies to bring services and products to wider audience. This can occur either through expanding service and product range, or by providing the capability to advertise and distribute its products and services to a larger number of people.</p>\r\n<p id=\"f87f\" class=\"graf graf--p graf-after--p\">-Providing more desirable products and services. This could range from improving a product like a phone with increased speed and store capacity to providing a superior user experience.</p>\r\n<p id=\"eed2\" class=\"graf graf--p graf-after--p\">In order to be successfully innovate, business will need to investigate and invest in new technology. The result of this technological transformation will look different for each company but the processes and benefits involved are the same.</p>\r\n<p id=\"d5be\" class=\"graf graf--p graf-after--p\">It should be noted that the best results seen from applying innovative new technology is when it is employed as constant practice. As technology continues evolving, new solutions should not be viewed as a one-time-fix, but rather a method or approach that will lead to continuous evolution of a company.</p>\r\n<p id=\"9667\" class=\"graf graf--p graf-after--p\">Besides embracing change and treating it as a process to be embedded in practice, there are a number of ways in which companies see the most success from embracing new technology.</p>\r\n<p id=\"6a7e\" class=\"graf graf--p graf-after--p\">Proper planning and strategy of where and when to apply new technology is essential in this process. There must be a need for the new technology to replace existing ones; if there isn’t then either the technology is not developed enough yet, or a new option will need to be considered. If focussed on developing a new product, if there is no market for it, the product will fail. This is particularly relevant with the method of fundraising through ICOs that has become popular in the past couple of years. For investors in start-ups carrying out ICOs, the actual need for a new product or solution should be the first things to consider when deciding if a project will succeed or fail.</p>\r\n<p id=\"67fe\" class=\"graf graf--p graf-after--p\">Successful innovators are also ones that utilise experience and expertise outside their own companies in order to improve their products and services. Taking the social media scene as an example, whilst MySpace was initially the go-to platform, it was replaced by Facebook. One key factor in the disruption of the market was Facebook’s willingness to accept outside development to build new apps, giving it a huge advantage over Myspace, which built all its own apps.</p>\r\n<p id=\"83a2\" class=\"graf graf--p graf-after--p\">Despite this, it is worth mentioning that the idea of the best solution may differ depending on the stance of the viewer. One example of this can be seen in the battle between VHS and Betamax. From a technological standpoint, Betamax may have been a superior product; however, the applications and use of VHS was preferred by customers, causing the VHS to become the dominant option whilst Betamax died out. This leads to the idea of ‘the customer is always right’. Although this may not be true in every sense, what it does mean is that, ultimately, a customer is the one who is paying for and using a product or service and if they don’t like it they will not buy into it. The opinions and wants or needs of the customer should be put first to ensure that, whatever the outcome is, it will be successful.</p>\r\n<p id=\"d70d\" class=\"graf graf--p graf-after--p\">•Pitfalls in innovation and the dangers of falling behind.</p>\r\n<p id=\"464e\" class=\"graf graf--p graf-after--p\">When a company fails to evolve its products, services or processes, it will suffer when compared to those who are constantly improving their business. Failure to keep up with developments can result in a number of setbacks, including:</p>\r\n<p id=\"2568\" class=\"graf graf--p graf-after--p\">-Loss of money due to inefficient processes. Legacy systems are outdated with the addition of new technology which can do the same tasks more efficiently.</p>\r\n<p id=\"c91d\" class=\"graf graf--p graf-after--p\">-Loss of time due to inefficient processes. Older systems or methods are also slower, holding up other parts of the business.</p>\r\n<p id=\"3d6c\" class=\"graf graf--p graf-after--p\">-Loss of resources due to inefficient processes. Valuable resources may be tied up in managing or running areas which have more efficient options available with new technology.</p>\r\n<p id=\"2c5d\" class=\"graf graf--p graf-after--p\">-Loss of customers. Products or services will become inadequate compared to others. Whilst this may not happen immediately if there is a sense of customer loyalty, eventually good will from consumers will fade as better options can be found elsewhere.</p>\r\n<p id=\"31f1\" class=\"graf graf--p graf-after--p\">-Loss of innovation. Lack of progression will see the company become outdated as other competitors provide innovative and different choices leading to new products and services.</p>\r\n<p id=\"20cd\" class=\"graf graf--p graf-after--p\">-Lack of expansion. New developments in technology can allow businesses to reach greater numbers of potential customers so the company that stagnates instead of embracing new opportunities will not leverage this potential.</p>\r\n<p id=\"74aa\" class=\"graf graf--p graf-after--p\">Nokia is a perfect example of where a market giant, which was a household name, almost disappeared due to a failure to innovate. As the likes of Microsoft and Apple poured money and time into the R&amp;D of smartphones, Nokia failed to provide adequate new options and customers ceased buying Nokia products. In the end, it sold its mobile and devices division to Microsoft in 2014.</p>\r\n<p id=\"0eab\" class=\"graf graf--p graf-after--p\">However, the dangers of stagnation are not the only things to consider. Implementing new technologies poorly can lead to similar issues.</p>\r\n<p id=\"5730\" class=\"graf graf--p graf-after--p\">As when considering a new business, there are a host of questions that a company needs to consider when planning to evolve.</p>\r\n<p id=\"c221\" class=\"graf graf--p graf-after--p\">Some particularly key ones would be:</p>\r\n<p id=\"c425\" class=\"graf graf--p graf-after--p\">-Is there a market for this new service or product? For example, there is little use in expanding services into an area which has no need for it.</p>\r\n<p id=\"e393\" class=\"graf graf--p graf-after--p\">-Can the technology do what you want it to? If not, alternative options or more R&amp;D with the technology may first be necessary.</p>\r\n<p id=\"7313\" class=\"graf graf--p graf-after--p\">-Do the benefits outweigh the costs? Making very minor changes for huge costs may not be effective even in the long run. Perhaps bigger changes or other options might be better.</p>\r\n<p id=\"d7f3\" class=\"graf graf--p graf-after--p\">The Sinclair C5 is a historical example of a market failure. Despite believing there was a market niche that could be filled with this vehicle, the reality was that the product was poorly designed to provide the service it promised. The technology was not developed enough to meet the needs and so the Sinclair C5 failed, impacting the reputation and finances of the company, with the manufacturer — Sinclair Vehicles — going into receivership. With proper analysis and planning this could have been avoided.</p>\r\n<p id=\"af71\" class=\"graf graf--p graf-after--p\">The Apple Watch is another example of where a product was developed when the need or desire for it was lacking which resulted in a huge flop for Apple, showing that even the big names sometimes get it wrong. This had a knock-on effect for other companies and industries who knew if its development and began to develop their own products which relied on the Apple Watch taking off. This included developments such as Sportsbetting Watch Apps which then had no substantial market as the watch failed to take off, resulting in wasted time and resources in development by the companies involved.</p>\r\n<p id=\"f81a\" class=\"graf graf--p graf-after--p\">•How does Blockpass fit into this?</p>\r\n<p id=\"9bcc\" class=\"graf graf--p graf-after--p\">Blockpass hits all four categories outlined in the benefits above: it frees up time and saves money for merchants on the KYC process; it grants companies increased access to potential customers with a pre-verified pool of users; and makes the KYC process more attractive for the user as it is faster, simpler and more private than current methods. As Blockpass plans to continue evolving its product and services to expand to wider human identity — alongside object, device and company identity — it also fits with the idea that continuous development that is vital to remain competitive. This is reflected in its partnership to develop ground-breaking new technology with Edinburgh Napier University.</p>\r\n<p id=\"73ed\" class=\"graf graf--p graf-after--p\">By partnering with Blockpass, a merchant avoids the dangers of falling behind whilst sidestepping the need to develop the technology themselves. Partnering with a start-up is a common approach for existing companies who gain access to specialised knowledge and skills of the team, which they themselves would not be expected to have. Similarly, much of the risk is offloaded as the company is not developing the new technology with their own time and money. Partnership with a start-up is quicker, safer and cheaper than developing solutions in-house (an example of this will be provided in Part Three of this series).</p>\r\n<p id=\"d865\" class=\"graf graf--p graf-after--p\">With a production-ready platform to easily on-board customers, Blockpass provides simple integration without locking companies in to the solution, and without requiring companies to expend time or resources creating their own solutions.</p>\r\n<p id=\"a9f7\" class=\"graf graf--p graf-after--p graf--trailing\">In the next part of this series, we will be examining the effects of a new technology being introduced to an industry by looking at a historical example of the impact on one industry in particular. Analysis of the industry at this time — as it underwent huge upheaval with the introduction of the internet — can be extrapolated to give a general understanding of what will happen to any industry. How the industry changed and the ways in which companies made mistakes or prepared adequately, along with lessons that can be drawn from this, will be covered.</p>"
+media_page_text:
+    - 'As developments over the past few years have shown, we are in a time of unprecedented technological growth which shows no signs of slowing down. '
+pinned:
+    - 'no'
+metatitle:
+    - 'The Importance of Embracing New Technology. Part Two: The Benefits and Dangers of Innovation'
+metadescription:
+    - 'As developments over the past few years have shown, we are in a time of unprecedented technological growth which shows no signs of slowing down. '
+metakeywords:
+    - 'AML, best KYC, Blockchain, blockchain verification, Blockpass, Client On-Boarding, Client Onboarding, Compliance, Crypto, Cryptocurrency, Customer Onboarding, digital identity, ethecal, fast kyc, Identity, Identity Check, identity management solution, identity verification, Know your customer, KYC, KYC Connect, Marketplace, Partnership, PASS, Regtech, seamless kyc, security tokens, Simple KYC, STO'
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml encoding="UTF-8">

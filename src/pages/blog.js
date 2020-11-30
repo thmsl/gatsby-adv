@@ -44,7 +44,6 @@ export const pagesQuery = graphql`
           frontmatter {
             title
             category
-            cover
             date
             thumbnail
             intro
