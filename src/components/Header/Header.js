@@ -90,7 +90,7 @@ function Header({ config }) {
                 id="menu-appbar"
                 anchorEl={anchorEl}
                 anchorOrigin={{
-                  vertical: 63,
+                  vertical: 62,
                   horizontal: 'center',
                 }}
                 keepMounted

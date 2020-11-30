@@ -1,32 +1,44 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
-import { Link } from "gatsby-theme-material-ui";
+import PostCard from "./PostCard"
+import Grid from '@material-ui/core/Grid';
+import Masonry from 'react-masonry-css'
+import "./Post.css";
+
 
 function PostListing({ postEdges }) {
   const postList = [];
   postEdges.forEach((postEdge) => {
     postList.push({
       path: postEdge.node.fields.slug,
-      tags: postEdge.node.frontmatter.tags,
+      date: postEdge.node.fields.date,
+      thumbnail: postEdge.node.frontmatter.thumbnail,
+      intro: postEdge.node.frontmatter.intro,
+      category: postEdge.node.frontmatter.category,
       cover: postEdge.node.frontmatter.cover,
       title: postEdge.node.frontmatter.title,
-      date: postEdge.node.fields.date,
-      excerpt: postEdge.node.excerpt,
-      timeToRead: postEdge.node.timeToRead,
     });
   });
 
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 2,
+    700: 1
+  };  
+
   return (
-    <div>
+    <Masonry
+      breakpointCols={breakpointColumnsObj}
+      className="my-masonry-grid"
+      columnClassName="my-masonry-grid_column"
+    >
       {
-        /* Your post list here. */
-        postList.map((post) => (
-          <Link to={post.path} key={post.title}>
-            <Typography>{post.title}</Typography>
-          </Link>
+        postList.map((post, index) => (
+          <div key={index}>
+            <PostCard post={post} position={index}/>
+          </div>
         ))
       }
-    </div>
+    </Masonry>
   );
 }
 

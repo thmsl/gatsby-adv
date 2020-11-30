@@ -1,0 +1,27 @@
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+.blogcontainer .MuiPaper-root {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+}
+
+.blogcontainer .MuiPaper-root:hover {
+  box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.12);
+  transform: translate(0, -10px);
+}
