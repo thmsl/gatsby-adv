@@ -43,20 +43,14 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text:
-    - ''
-og_image_line_2_text:
-    - ''
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: ''
+og_image_line_2_text: ''
+og_image_line_3_text: ''
 header_image:
     - ''
-intro:
-    - 'Comprehensive guide to building your Blockpass profile, verifying your identity and signing up to the Ethfinex platform.  '
-text:
-    - '[video width="1280" height="720" mp4="https://www.blockpass.org/wp-content/uploads/2019/06/Demo-Video-Ready-v1.mp4"][/video]'
-media_page_text:
-    - 'Comprehensive guide to building your Blockpass profile, verifying your identity and signing up to the Ethfinex platform.  '
+intro: 'Comprehensive guide to building your Blockpass profile, verifying your identity and signing up to the Ethfinex platform.  '
+text: '[video width="1280" height="720" mp4="https://www.blockpass.org/wp-content/uploads/2019/06/Demo-Video-Ready-v1.mp4"][/video]'
+media_page_text: 'Comprehensive guide to building your Blockpass profile, verifying your identity and signing up to the Ethfinex platform.  '
 pinned:
     - 'no'
 metatitle:

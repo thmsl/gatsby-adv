@@ -55,20 +55,14 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text:
-    - ''
-og_image_line_2_text:
-    - ''
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: ''
+og_image_line_2_text: ''
+og_image_line_3_text: ''
 header_image:
     - ''
-intro:
-    - 'Recently, Blockpass CEO, Adam Vaziri, sat down for an interview with NexChange to talk about Blockpass.'
-text:
-    - "<div>The topics discussed covered the purpose of Blockpass, its benefits, and how it will be vital for strong and flexible identity as we move into an increasingly digital future. Naturally, questions also covered STOs and the evolution of\_regulations, with Adam sharing his expert knowledge in these areas.</div>\r\n<div></div>\r\n<div>If you've not had a chance to see Adam speak in person, videos of the interview have been uploaded to provide an opportunity for you to watch and listen to a well-explained and succinct overview of key areas that Blockpass deals with and is working on.</div>\r\n<div></div>\r\n<div></div>\r\n<div></div>\r\n<div>Part 1/2\r\n[embed]https://youtu.be/tCX6Seefdnw[/embed]\r\n\r\nPart 2/2\r\n\r\n[embed]https://youtu.be/DxY8PyMHP4I[/embed]\r\n\r\n</div>"
-media_page_text:
-    - 'Talking Everything Blockpass'
+intro: 'Recently, Blockpass CEO, Adam Vaziri, sat down for an interview with NexChange to talk about Blockpass.'
+text: "<div>The topics discussed covered the purpose of Blockpass, its benefits, and how it will be vital for strong and flexible identity as we move into an increasingly digital future. Naturally, questions also covered STOs and the evolution of\_regulations, with Adam sharing his expert knowledge in these areas.</div>\r\n<div></div>\r\n<div>If you've not had a chance to see Adam speak in person, videos of the interview have been uploaded to provide an opportunity for you to watch and listen to a well-explained and succinct overview of key areas that Blockpass deals with and is working on.</div>\r\n<div></div>\r\n<div></div>\r\n<div></div>\r\n<div>Part 1/2\r\n[embed]https://youtu.be/tCX6Seefdnw[/embed]\r\n\r\nPart 2/2\r\n\r\n[embed]https://youtu.be/DxY8PyMHP4I[/embed]\r\n\r\n</div>"
+media_page_text: 'Talking Everything Blockpass'
 pinned:
     - 'no'
 metatitle:

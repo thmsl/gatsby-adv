@@ -60,20 +60,14 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text:
-    - ''
-og_image_line_2_text:
-    - ''
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: ''
+og_image_line_2_text: ''
+og_image_line_3_text: ''
 header_image:
     - ''
-intro:
-    - 'AI Authority, a leading publication on AI technology, recently covered leading research papers published by the the Blockpass Identity Lab.'
-text:
-    - 'The lab is hosted at Edinburgh Napier University in Scotland and is funded by Blockpass to conduct innovative research into user controlled, zero knowledge identity solutions. The AI Authority emphasizes the <a href="https://aithority.com/technology/blockchain/blockpass-identity-lab-publishes-leading-edge-research-papers-in-blockchain-ai-tech-for-healthcare-hr-iot-sectors/">benefits to the users and application</a> for compliance and regulatory requirements.'
-media_page_text:
-    - ''
+intro: 'AI Authority, a leading publication on AI technology, recently covered leading research papers published by the the Blockpass Identity Lab.'
+text: 'The lab is hosted at Edinburgh Napier University in Scotland and is funded by Blockpass to conduct innovative research into user controlled, zero knowledge identity solutions. The AI Authority emphasizes the <a href="https://aithority.com/technology/blockchain/blockpass-identity-lab-publishes-leading-edge-research-papers-in-blockchain-ai-tech-for-healthcare-hr-iot-sectors/">benefits to the users and application</a> for compliance and regulatory requirements.'
+media_page_text: ''
 pinned:
     - 'yes'
 metatitle:

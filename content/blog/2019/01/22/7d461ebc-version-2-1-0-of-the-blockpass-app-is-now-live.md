@@ -55,20 +55,14 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text:
-    - ''
-og_image_line_2_text:
-    - ''
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: ''
+og_image_line_2_text: ''
+og_image_line_3_text: ''
 header_image:
     - '1139'
-intro:
-    - 'The latest version of the Blockpass app, version 2.1.0, allows individuals to obtain a new certificate that proves verified identification documents actually do belong to the user. '
-text:
-    - "The latest version of the Blockpass mobile app features a brand new Face Match certificate, making it even easier to use and manage your digital identity from your mobile phone. Under 'Verifiers', simply select the Face Match option and follow the prompts to obtain the all new certificate that confirms that\_you are the owner of the passport you uploaded.\r\n\r\nThe first submission for a Face Match certificate is free to all users of the Blockpass app.\r\n\r\nThis feature enhances the verification level of your profile, enabling the Blockpass KYC solution to service a wider range of regulated businesses and industries. It also means for service providers that the process of onboarding new customers is now more seamless than ever, as the Face Match certificate removes the requirement for manual processing of this stage of the KYC process.\r\n\r\n<img class=\"alignright size-full wp-image-2142\" src=\"https://www.blockpass.org/wp-content/uploads/2019/01/FaceMatch.png\" alt=\"\" width=\"1380\" height=\"952\" />"
-media_page_text:
-    - 'The latest version of the Blockpass app, version 2.1.0, allows individuals to obtain a new certificate that prove verified identification documents actually do belong to the user. '
+intro: 'The latest version of the Blockpass app, version 2.1.0, allows individuals to obtain a new certificate that proves verified identification documents actually do belong to the user. '
+text: "The latest version of the Blockpass mobile app features a brand new Face Match certificate, making it even easier to use and manage your digital identity from your mobile phone. Under 'Verifiers', simply select the Face Match option and follow the prompts to obtain the all new certificate that confirms that\_you are the owner of the passport you uploaded.\r\n\r\nThe first submission for a Face Match certificate is free to all users of the Blockpass app.\r\n\r\nThis feature enhances the verification level of your profile, enabling the Blockpass KYC solution to service a wider range of regulated businesses and industries. It also means for service providers that the process of onboarding new customers is now more seamless than ever, as the Face Match certificate removes the requirement for manual processing of this stage of the KYC process.\r\n\r\n<img class=\"alignright size-full wp-image-2142\" src=\"https://www.blockpass.org/wp-content/uploads/2019/01/FaceMatch.png\" alt=\"\" width=\"1380\" height=\"952\" />"
+media_page_text: 'The latest version of the Blockpass app, version 2.1.0, allows individuals to obtain a new certificate that prove verified identification documents actually do belong to the user. '
 pinned:
     - 'no'
 metatitle:

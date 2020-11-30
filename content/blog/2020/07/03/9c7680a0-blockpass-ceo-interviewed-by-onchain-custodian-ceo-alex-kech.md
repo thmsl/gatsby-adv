@@ -53,20 +53,14 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text:
-    - ''
-og_image_line_2_text:
-    - ''
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: ''
+og_image_line_2_text: ''
+og_image_line_3_text: ''
 header_image:
     - ''
-intro:
-    - "Recently, Blockpass' CEO Adam Vaziri was interviewed by Alex Kech, CEO of Onchain Custodian about himself, Blockpass, the key points and challenges in the industry and others to watch out for. The video is now available to view; check it out to see Adam and Alex talking about regulation, identity, KYC, AML, their work together and many other areas.\_"
-text:
-    - '[embed]https://www.youtube.com/watch?v=mcUgW6QQgLs&feature=emb_logo[/embed]'
-media_page_text:
-    - "Recently, Blockpass' CEO Adam Vaziri was interviewed by Alex Kech, CEO of Onchain Custodian about himself, Blockpass, the key points and challenges in the industry and others to watch out for. The video is now available to view; check it out to see Adam and Alex talking about regulation, identity, KYC, AML, their work together and many other areas.\_"
+intro: "Recently, Blockpass' CEO Adam Vaziri was interviewed by Alex Kech, CEO of Onchain Custodian about himself, Blockpass, the key points and challenges in the industry and others to watch out for. The video is now available to view; check it out to see Adam and Alex talking about regulation, identity, KYC, AML, their work together and many other areas.\_"
+text: '[embed]https://www.youtube.com/watch?v=mcUgW6QQgLs&feature=emb_logo[/embed]'
+media_page_text: "Recently, Blockpass' CEO Adam Vaziri was interviewed by Alex Kech, CEO of Onchain Custodian about himself, Blockpass, the key points and challenges in the industry and others to watch out for. The video is now available to view; check it out to see Adam and Alex talking about regulation, identity, KYC, AML, their work together and many other areas.\_"
 pinned:
     - 'no'
 metatitle:

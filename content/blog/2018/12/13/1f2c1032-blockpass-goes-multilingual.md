@@ -53,12 +53,9 @@ region:
     - ''
 header_image:
     - ''
-intro:
-    - 'The Blockpass website is now available in Chinese and Korean in addition to English.'
-text:
-    - 'As part of our website re-vamp, all product information, news, bios, blogs and more are available in your choice of language. We''ll be adding even more over the next few months, and will keep you posted.'
-media_page_text:
-    - 'The Blockpass website is now available in Chinese and Korean in addition to English.'
+intro: 'The Blockpass website is now available in Chinese and Korean in addition to English.'
+text: 'As part of our website re-vamp, all product information, news, bios, blogs and more are available in your choice of language. We''ll be adding even more over the next few months, and will keep you posted.'
+media_page_text: 'The Blockpass website is now available in Chinese and Korean in addition to English.'
 pinned:
     - 'no'
 ogtitle:
@@ -73,12 +70,9 @@ text_lines:
     - '2'
 og_image_opacity:
     - '100'
-og_image_line_1_text:
-    - 'Blockpass goes'
-og_image_line_2_text:
-    - multilingual!
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: 'Blockpass goes'
+og_image_line_2_text: multilingual!
+og_image_line_3_text: ''
 metatitle:
     - 'Blockpass goes multilingual!'
 metadescription:

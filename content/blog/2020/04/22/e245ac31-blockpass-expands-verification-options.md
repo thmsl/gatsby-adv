@@ -53,20 +53,14 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text:
-    - ''
-og_image_line_2_text:
-    - ''
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: ''
+og_image_line_2_text: ''
+og_image_line_3_text: ''
 header_image:
     - ''
-intro:
-    - 'Blockpass is expanding on its verification options for customers and business partners alike in a recent update which went live this week. Ensuring flexibility and customisation, the Blockpass development team has been working hard to add this latest option with the result that National ID verification is now possible to use with our services. '
-text:
-    - "<span style=\"font-weight: 400;\">There are a number of options available to those seeking identity verification, catering for businesses with greater or lesser need for specific services. Equivalent to our traditional KYC Connect plan, the new KYC Connect Pro option covers identity document verification, face match, AML monitoring and address verification, all of which are included for US$4.50.</span>\r\n\r\n<span style=\"font-weight: 400;\">For those that don’t require address verification, the KYC Connect Plus plan includes identity document verification, face match and AML monitoring for the discounted price of US$3.00. If only the identity document verification and face match options are required for a business, they can choose to select the KYC Connect Standard option which comes in at only US$2.50.</span>\r\n\r\n<span style=\"font-weight: 400;\">We will keep exploring additional options to provide the most desirable services to our customers and the most flexibility for our users. If there is any option or expansion you would like to see to Blockpass’ products, please don’t hesitate to get in touch with us via email or social media.\_</span>\r\n\r\nSetup your KYC Connect service in minutes with pay-as-you-go, no setup fee, and free testing - <a href=\"https://console.blockpass.org/blockpass_console/#/\">click here!</a>"
-media_page_text:
-    - 'Blockpass is expanding on its verification options for customers and business partners alike in a recent update which went live this week. Ensuring flexibility and customisation, the Blockpass development team has been working hard to add this latest option with the result that National ID verification is now possible to use with our services. '
+intro: 'Blockpass is expanding on its verification options for customers and business partners alike in a recent update which went live this week. Ensuring flexibility and customisation, the Blockpass development team has been working hard to add this latest option with the result that National ID verification is now possible to use with our services. '
+text: "<span style=\"font-weight: 400;\">There are a number of options available to those seeking identity verification, catering for businesses with greater or lesser need for specific services. Equivalent to our traditional KYC Connect plan, the new KYC Connect Pro option covers identity document verification, face match, AML monitoring and address verification, all of which are included for US$4.50.</span>\r\n\r\n<span style=\"font-weight: 400;\">For those that don’t require address verification, the KYC Connect Plus plan includes identity document verification, face match and AML monitoring for the discounted price of US$3.00. If only the identity document verification and face match options are required for a business, they can choose to select the KYC Connect Standard option which comes in at only US$2.50.</span>\r\n\r\n<span style=\"font-weight: 400;\">We will keep exploring additional options to provide the most desirable services to our customers and the most flexibility for our users. If there is any option or expansion you would like to see to Blockpass’ products, please don’t hesitate to get in touch with us via email or social media.\_</span>\r\n\r\nSetup your KYC Connect service in minutes with pay-as-you-go, no setup fee, and free testing - <a href=\"https://console.blockpass.org/blockpass_console/#/\">click here!</a>"
+media_page_text: 'Blockpass is expanding on its verification options for customers and business partners alike in a recent update which went live this week. Ensuring flexibility and customisation, the Blockpass development team has been working hard to add this latest option with the result that National ID verification is now possible to use with our services. '
 pinned:
     - 'no'
 metatitle:

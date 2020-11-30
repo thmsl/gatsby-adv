@@ -62,20 +62,14 @@ text_lines:
     - '2'
 og_image_opacity:
     - '50'
-og_image_line_1_text:
-    - 'Now supporting'
-og_image_line_2_text:
-    - 'National IDs'
-og_image_line_3_text:
-    - ''
+og_image_line_1_text: 'Now supporting'
+og_image_line_2_text: 'National IDs'
+og_image_line_3_text: ''
 header_image:
     - ''
-intro:
-    - 'We are listening to your feedback, this version introduces additional identity documents!'
-text:
-    - "The latest update to the Blockpass app, version 1.9, brings more functionality. You can now safely store your national ID and your driving license in your Blockpass app.\r\n\r\nThe ability to verify the national IDs and driving licenses will be introduced in to a later version. We will gradually improve\_ the support so you can use them to register with your favorite services.\r\n\r\nGot questions? Join our telegram group t.me/blockpass or reach out to our support team at <a href=\"mailto:team@blockpass.org\">team@blockpass.org</a>"
-media_page_text:
-    - 'We are listening to your feedback, this version introduces additional identity documents!'
+intro: 'We are listening to your feedback, this version introduces additional identity documents!'
+text: "The latest update to the Blockpass app, version 1.9, brings more functionality. You can now safely store your national ID and your driving license in your Blockpass app.\r\n\r\nThe ability to verify the national IDs and driving licenses will be introduced in to a later version. We will gradually improve\_ the support so you can use them to register with your favorite services.\r\n\r\nGot questions? Join our telegram group t.me/blockpass or reach out to our support team at <a href=\"mailto:team@blockpass.org\">team@blockpass.org</a>"
+media_page_text: 'We are listening to your feedback, this version introduces additional identity documents!'
 pinned:
     - 'no'
 metatitle:
