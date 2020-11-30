@@ -54,9 +54,12 @@ ogimage:
     - '1245'
 header_image:
     - '1245'
-intro: 'We are very excited to announce our latest Advisor, award-winning Fintech Executive and Blockchain Expert, Demetrios Zamboglou, PhD. Dr Zamboglou is the Chief Business Development Officer for Lykke AG, and brings a wealth of financial services knowledge and expertise in the blockchain and crypto exchange landscapes.'
-text: "Of the business, Dr Zamboglou has said, “Digital\_identity mechanisms are now a reality! Through applied blockchain technologies,\_Blockpass aims to deliver an effective, secure\_and trusted solution that will shape\_the future of our digital society.”\r\n\r\nTo read more about Dr Zamboglou, you can visit his profile <a href=\"https://www.linkedin.com/in/zamboglou/\">here</a>."
-media_page_text: 'We are very excited to announce our latest Advisor, award-winning Fintech Executive and Blockchain Expert, Demetrios Zamboglou, PhD. Dr Zamboglou is the Chief Business Development Officer for Lykke AG, and brings a wealth of financial services knowledge and expertise in the blockchain and crypto exchange landscapes.'
+intro:
+    - 'We are very excited to announce our latest Advisor, award-winning Fintech Executive and Blockchain Expert, Demetrios Zamboglou, PhD. Dr Zamboglou is the Chief Business Development Officer for Lykke AG, and brings a wealth of financial services knowledge and expertise in the blockchain and crypto exchange landscapes.'
+text:
+    - "Of the business, Dr Zamboglou has said, “Digital\_identity mechanisms are now a reality! Through applied blockchain technologies,\_Blockpass aims to deliver an effective, secure\_and trusted solution that will shape\_the future of our digital society.”\r\n\r\nTo read more about Dr Zamboglou, you can visit his profile <a href=\"https://www.linkedin.com/in/zamboglou/\">here</a>."
+media_page_text:
+    - 'We are very excited to announce our latest Advisor, award-winning Fintech Executive and Blockchain Expert, Demetrios Zamboglou, PhD. Dr Zamboglou is the Chief Business Development Officer for Lykke AG, and brings a wealth of financial services knowledge and expertise in the blockchain and crypto exchange landscapes.'
 pinned:
     - 'no'
 metatitle:
@@ -71,9 +74,12 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text: ''
-og_image_line_2_text: ''
-og_image_line_3_text: ''
+og_image_line_1_text:
+    - ''
+og_image_line_2_text:
+    - ''
+og_image_line_3_text:
+    - ''
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <?xml encoding="UTF-8">

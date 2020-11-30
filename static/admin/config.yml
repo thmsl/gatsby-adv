@@ -21,5 +21,4 @@ collections:
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Category", name: "category", widget: "list" }
       - { label: "Tags", name: "tag", widget: "list" }
-      - { label: "Intro", name: "intro", widget: "string" }
-      - { label: "Body", name: "text", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }

@@ -57,14 +57,20 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text: ''
-og_image_line_2_text: ''
-og_image_line_3_text: ''
+og_image_line_1_text:
+    - ''
+og_image_line_2_text:
+    - ''
+og_image_line_3_text:
+    - ''
 header_image:
     - '2167'
-intro: 'Blockpass has today announced the listing of its native utility token, PASS, on Malaysian-based exchange IIEX.'
-text: "<span style=\"font-weight: 400;\">PASS is an ERC20 KYC standard utility token that serves as a discount voucher for the Blockpass platform. The first-of-its kind, PASS token seamlessly integrates KYC-compliant identities, ensuring that all holders are fully verified before they are able to transfer it on.</span>\r\n\r\n<span style=\"font-weight: 400;\">Established in 2017, IIEX aims to be a leading global digital asset trading platform and boasts support for over 20 projects internationally. IIEX strives for trading security, giving users the peace of mind that comes with SSL bank-level security, and only engages with projects which meet its strict market entry threshold. </span>\r\n\r\n<span style=\"font-weight: 400;\">“It’s great to broaden the number of exchanges that are currently supporting PASS. The last several months have seen our partner network and digital identity ecosystem broaden dramatically, and expanding the tradability of PASS is a big part of that,” said Blockpass CEO <a href=\"https://www.linkedin.com/in/adamvaziri/\">Adam Vaziri</a>. “IIEX is helping to increase market accessibility to PASS, bringing it to a wider range of potential buyers and networks, which is key to growing our Blockpass App user base.”</span>\r\n\r\n<span style=\"font-weight: 400;\">For more information or to get started with IIEX, visit </span><a href=\"http://iiex.io\"><span style=\"font-weight: 400;\">iiex.io</span></a>"
-media_page_text: 'Blockpass has today announced the listing of its native utility token, PASS, on Malaysian-based based exchange IIEX.'
+intro:
+    - 'Blockpass has today announced the listing of its native utility token, PASS, on Malaysian-based exchange IIEX.'
+text:
+    - "<span style=\"font-weight: 400;\">PASS is an ERC20 KYC standard utility token that serves as a discount voucher for the Blockpass platform. The first-of-its kind, PASS token seamlessly integrates KYC-compliant identities, ensuring that all holders are fully verified before they are able to transfer it on.</span>\r\n\r\n<span style=\"font-weight: 400;\">Established in 2017, IIEX aims to be a leading global digital asset trading platform and boasts support for over 20 projects internationally. IIEX strives for trading security, giving users the peace of mind that comes with SSL bank-level security, and only engages with projects which meet its strict market entry threshold. </span>\r\n\r\n<span style=\"font-weight: 400;\">“It’s great to broaden the number of exchanges that are currently supporting PASS. The last several months have seen our partner network and digital identity ecosystem broaden dramatically, and expanding the tradability of PASS is a big part of that,” said Blockpass CEO <a href=\"https://www.linkedin.com/in/adamvaziri/\">Adam Vaziri</a>. “IIEX is helping to increase market accessibility to PASS, bringing it to a wider range of potential buyers and networks, which is key to growing our Blockpass App user base.”</span>\r\n\r\n<span style=\"font-weight: 400;\">For more information or to get started with IIEX, visit </span><a href=\"http://iiex.io\"><span style=\"font-weight: 400;\">iiex.io</span></a>"
+media_page_text:
+    - 'Blockpass has today announced the listing of its native utility token, PASS, on Malaysian-based based exchange IIEX.'
 pinned:
     - 'no'
 metatitle:

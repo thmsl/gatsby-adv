@@ -57,14 +57,20 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text: ''
-og_image_line_2_text: ''
-og_image_line_3_text: ''
+og_image_line_1_text:
+    - ''
+og_image_line_2_text:
+    - ''
+og_image_line_3_text:
+    - ''
 header_image:
     - ''
-intro: 'Blockpass was featured on the Advancements aired on CNBC'
-text: "[embed]https://www.youtube.com/watch?v=0jMin9Dw6uw&feature=youtu.be[/embed]\r\n\r\nIn the series, audiences will be educated about <a href=\"http://www.blockpass.org/\">Blockpass</a>; a user centric identity application for regulated industries and the internet of everything. Blockpass offers shared regulatory compliance services for humans, companies, objects and devices. Find out how this identity system supports verification of humans (<a href=\"http://www.blockpass.org/kyc\">KYC</a>), objects (KYO) and connected devices (KYD) to enable the development of new applications that rely on a trusted connection between multiple entities.\r\n\r\nBlockpass CEO, <a href=\"https://www.linkedin.com/in/adamvaziri/\">Adam Vaziri</a> and CMO <a href=\"https://www.linkedin.com/in/hanslombardo/\">Hans Lombardo</a> were interviewed about their idea of self-sovereign identity ambition and Blockpass' collaboration with the <a href=\"https://identity-lab.blockpass.org/\">Blockpass Identity Lab. </a>\r\n"
-media_page_text: ''
+intro:
+    - 'Blockpass was featured on the Advancements aired on CNBC'
+text:
+    - "[embed]https://www.youtube.com/watch?v=0jMin9Dw6uw&feature=youtu.be[/embed]\r\n\r\nIn the series, audiences will be educated about <a href=\"http://www.blockpass.org/\">Blockpass</a>; a user centric identity application for regulated industries and the internet of everything. Blockpass offers shared regulatory compliance services for humans, companies, objects and devices. Find out how this identity system supports verification of humans (<a href=\"http://www.blockpass.org/kyc\">KYC</a>), objects (KYO) and connected devices (KYD) to enable the development of new applications that rely on a trusted connection between multiple entities.\r\n\r\nBlockpass CEO, <a href=\"https://www.linkedin.com/in/adamvaziri/\">Adam Vaziri</a> and CMO <a href=\"https://www.linkedin.com/in/hanslombardo/\">Hans Lombardo</a> were interviewed about their idea of self-sovereign identity ambition and Blockpass' collaboration with the <a href=\"https://identity-lab.blockpass.org/\">Blockpass Identity Lab. </a>\r\n"
+media_page_text:
+    - ''
 pinned:
     - 'no'
 metatitle:

@@ -63,14 +63,20 @@ text_lines:
     - '1'
 og_image_opacity:
     - '100'
-og_image_line_1_text: ''
-og_image_line_2_text: ''
-og_image_line_3_text: ''
+og_image_line_1_text:
+    - ''
+og_image_line_2_text:
+    - ''
+og_image_line_3_text:
+    - ''
 header_image:
     - ''
-intro: 'PASS Club, a verified e-commerce network using the Blockpass tech, eliminates scammers, trollers and fraudsters and brings the best trustworthy partners in the industry to our members. A series of content will be produced to educate, discuss and share knowledge around latest technology especially about blockchain, cryptocurrency and regtech. This time, Blockpass CEO, Adam Vaziri is interviewing Vincent Chok, CEO of Legacy Trust. Vincent shares the latest updates of Legacy Trust and how he gets into the digital asset world. Enjoy!'
-text: "[embed]https://www.youtube.com/watch?v=QY9YsIH64pQ&feature=youtu.be[/embed]\r\n\r\nLegacy Trust is a forward-thinking institution with a global mindset that caters to institutions, corporations, and high net-worth individuals. First of the series, CEO of Legacy Trust, Vincent Chok, is interviewed by Blockpass CEO,\_ Adam Vaziri. They talk about some of the new/upcoming products in Legacy Trust, and partnership between Legacy Trust and Blockpass. Find out more!"
-media_page_text: 'PASS Club, a verified e-commerce network using the Blockpass tech, eliminates scammers, trollers and fraudsters and brings the best trustworthy partners in the industry to our members. A series of content will be produced to educate, discuss and share knowledge around latest technology especially about blockchain, cryptocurrency and regtech. This time, Blockpass CEO, Adam Vaziri is interviewing Vincent Chok, CEO of Legacy Trust. Vincent shares the latest updates of Legacy Trust and how he gets into the digital asset world. Enjoy!'
+intro:
+    - 'PASS Club, a verified e-commerce network using the Blockpass tech, eliminates scammers, trollers and fraudsters and brings the best trustworthy partners in the industry to our members. A series of content will be produced to educate, discuss and share knowledge around latest technology especially about blockchain, cryptocurrency and regtech. This time, Blockpass CEO, Adam Vaziri is interviewing Vincent Chok, CEO of Legacy Trust. Vincent shares the latest updates of Legacy Trust and how he gets into the digital asset world. Enjoy!'
+text:
+    - "[embed]https://www.youtube.com/watch?v=QY9YsIH64pQ&feature=youtu.be[/embed]\r\n\r\nLegacy Trust is a forward-thinking institution with a global mindset that caters to institutions, corporations, and high net-worth individuals. First of the series, CEO of Legacy Trust, Vincent Chok, is interviewed by Blockpass CEO,\_ Adam Vaziri. They talk about some of the new/upcoming products in Legacy Trust, and partnership between Legacy Trust and Blockpass. Find out more!"
+media_page_text:
+    - 'PASS Club, a verified e-commerce network using the Blockpass tech, eliminates scammers, trollers and fraudsters and brings the best trustworthy partners in the industry to our members. A series of content will be produced to educate, discuss and share knowledge around latest technology especially about blockchain, cryptocurrency and regtech. This time, Blockpass CEO, Adam Vaziri is interviewing Vincent Chok, CEO of Legacy Trust. Vincent shares the latest updates of Legacy Trust and how he gets into the digital asset world. Enjoy!'
 pinned:
     - 'no'
 metatitle:
