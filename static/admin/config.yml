@@ -16,6 +16,7 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content type", name: "contenttype", widget: "hidden", default: "blog"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Cover Image", name: "cover", widget: "image", required: false }
       - { label: "Category", name: "category", widget: "list" }
@@ -31,6 +32,7 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content type", name: "contenttype", widget: "hidden", default: "solution"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Cover Image", name: "cover", widget: "image" }
       - { label: "Intro 1", name: "intro1", widget: "markdown" }

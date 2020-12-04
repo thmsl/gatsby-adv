@@ -193,7 +193,7 @@
   .toolbar {
     width: 100%;
   }
-  .aboutlink{
+  .submenulink{
     align-items: center;
     display: flex;
   }
@@ -255,7 +255,7 @@
     max-width: 1160px;
     margin: auto;
   }
-  .aboutlink{
+  .submenulink{
     height: 100px;
   }
 }

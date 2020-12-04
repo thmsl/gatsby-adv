@@ -1,5 +1,6 @@
 ---
 title: KYC For Financial Institutions
+contenttype: solution
 date: 2020-12-04T04:44:05.604Z
 cover: bp_finance_header_v2.jpg
 intro1: >-
