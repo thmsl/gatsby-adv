@@ -22,7 +22,7 @@ text1: >-
 
 
   Indeed, the Financial Action Task Force (FATF), the key intergovernmental organization developing global policies for combating money laundering and terrorist financing, released a [statement on 1 April 2020](http://www.fatf-gafi.org/publications/fatfgeneral/documents/statement-covid-19.html), addressing in part the “world facing confinement or strict social distancing measures” resulting from the [COVID-19](https://www.blockpass.org/2020/06/14/cryptography-for-covid-19-how-privacy-can-be-enabled-for-pandemic-contact-tracing/) pandemic. The FATF highlighted the need for fintech and regtech that ensures “trustworthy digital identity for improving the security, privacy and convenience of identifying people remotely for both onboarding and conducting transactions” while also mitigating money laundering and terrorist financing risks.
-image1: 02_gaming-icon.png
+image1: ""
 text2: to remove
 image2: 02_gaming-icon.png
 text3: to remove
