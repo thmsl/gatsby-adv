@@ -18,7 +18,7 @@ function SolutionDropdown({ config }) {
                   style={{
                     fontSize: "0.95em",
                     paddingTop: 0,
-                    margin: 0,
+                    margin: "0 0 8px",
                     paddingBottom: 0,
                     fontWeight: "700",
                   }}

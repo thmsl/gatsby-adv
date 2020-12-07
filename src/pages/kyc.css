@@ -1,0 +1,63 @@
+/* default */
+@media only screen and (min-width: 1px) {
+    .kyc-header {
+        color: #fff;
+        text-align: left;
+        background-image: url(https://blockpass.org/wp-content/themes/blockpass/images/kyc-header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 52%;
+    }
+    .kyccontainertext{
+        font-size: 24px;
+      }  
+      .kyccontainer{
+        max-width: 1160px;
+        padding: 50px 20px;
+        margin: auto;
+      }         
+      .kycintrocontainer{
+          font-size: 20px;
+      } 
+      .kycwhycontainer {
+          background-color: #488cff;
+          color: #fff;
+          font-size: 20px;
+      }
+      .connect-icon {
+        height: 70px;
+        max-height: 70px;
+    }
+    .kyccontainer .MuiGrid-item {
+        text-align: center;
+    }
+  }
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .outerframe {
+      transform: inherit;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .kyc-phone{
+        margin-top:-200px;
+        margin:auto;
+    }
+  }

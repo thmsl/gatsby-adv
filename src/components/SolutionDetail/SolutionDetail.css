@@ -4,6 +4,7 @@
 
 .solutioncontainer .gatsby-image-wrapper{
     display: flex !important;
+    max-height: 300px;
 }
 .solutionimagecontainer{
     display: flex;

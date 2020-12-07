@@ -8,12 +8,10 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
-import Button from "@material-ui/core/Button";
 import MainLogo from "./MainLogo";
 import Fade from "@material-ui/core/Fade";
-import Collapse from "@material-ui/core/Collapse";
 import Grow from "@material-ui/core/Grow";
-import Slide from "@material-ui/core/Slide";
+import GetStarted from '../GetStarted/GetStarted'
 
 import AboutDropdown from "./AboutDropdown";
 import SolutionDropdown from "./SolutionDropdown";
@@ -53,7 +51,7 @@ function Header({ config }) {
           <MainLogo />
           <Grow in={menuState} style={{ transformOrigin: "50% 0 0" }}>
             <div className="menu">
-              <a href="/business/">
+              <a href="/kyc/">
                 <Typography className="title">Business</Typography>
               </a>
               <a href="/individuals/">
@@ -119,14 +117,12 @@ function Header({ config }) {
                   {menuTarget === "menu-about" && <AboutDropdown />}
                 </MenuItem>
               </Menu>
-              <Button
+              <GetStarted
                 variant="outlined"
                 color="secondary"
                 href="#"
                 className="signupopen"
-              >
-                Get Started
-              </Button>
+              />
             </div>
           </Grow>
 
