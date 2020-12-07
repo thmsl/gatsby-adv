@@ -5,12 +5,16 @@ const _ = require("lodash");
 const moment = require("moment");
 const siteConfig = require("./data/SiteConfig");
 
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
   let slug;
   if (node.internal.type === "MarkdownRemark") {
     const fileNode = getNode(node.parent);
     const parsedFilePath = path.parse(fileNode.relativePath);
+
+    
+
     if (
       Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, "title")
@@ -25,19 +29,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     }
 
     if (Object.prototype.hasOwnProperty.call(node, "frontmatter")) {
-      
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "slug"))
         slug = `/${_.kebabCase(node.frontmatter.slug)}`;
 
       //get permalink as url
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "permalink")) {
-        slug = `${node.frontmatter.permalink.toString()}`;    
+        slug = `${node.frontmatter.permalink.toString()}`;
       }
-
 
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
         const date = moment(node.frontmatter.date, siteConfig.dateFromFormat);
-        
+
         if (!date.isValid)
           console.warn(`WARNING: Invalid date.`, node.frontmatter);
 
@@ -51,6 +53,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const postPage = path.resolve("src/templates/post.jsx");
+  const solutionPage = path.resolve("src/templates/solution.js");
   const tagPage = path.resolve("src/templates/tag.jsx");
   const categoryPage = path.resolve("src/templates/category.jsx");
   const listingPage = path.resolve("./src/templates/listing.jsx");
@@ -67,9 +70,73 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               title
+              contenttype
               tag
               category
               date
+              intro1
+              text1
+              image1 {
+                childImageSharp {
+                  resolutions(width: 400) {
+                    width
+                    height
+                    src
+                  }
+                }
+              } 
+              text2
+              image2 {
+                childImageSharp {
+                  resolutions(width: 400) {
+                    width
+                    height
+                    src
+                  }
+                }
+              }
+              text3 
+              image3 {
+                childImageSharp {
+                  resolutions(width: 400) {
+                    width
+                    height
+                    src
+                  }
+                }
+              }
+              intro2
+              text4
+              image4 {
+                childImageSharp {
+                  resolutions(width: 400) {
+                    width
+                    height
+                    src
+                  }
+                }
+              }
+              text5
+              image5 {
+                childImageSharp {
+                  resolutions(width: 400) {
+                    width
+                    height
+                    src
+                  }
+                }
+              }
+              text6
+              image6 {
+                childImageSharp {
+                  resolutions(width: 400) {
+                    width
+                    height
+                    src
+                  }
+                }
+              }
+              outro
             }
           }
         }
@@ -84,6 +151,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const tagSet = new Set();
   const categorySet = new Set();
+  const solutionSet = new Set();
 
   const postsEdges = markdownQueryResult.data.allMarkdownRemark.edges;
 
@@ -146,24 +214,34 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     }
 
-
-    // Create post pages
     const nextID = index + 1 < postsEdges.length ? index + 1 : 0;
     const prevID = index - 1 >= 0 ? index - 1 : postsEdges.length - 1;
     const nextEdge = postsEdges[nextID];
     const prevEdge = postsEdges[prevID];
 
-    createPage({
-      path: edge.node.fields.slug,
-      component: postPage,
-      context: {
-        slug: edge.node.fields.slug,
-        nexttitle: nextEdge.node.frontmatter.title,
-        nextslug: nextEdge.node.fields.slug,
-        prevtitle: prevEdge.node.frontmatter.title,
-        prevslug: prevEdge.node.fields.slug,
-      },
-    });
+    // Generate a list of solutions
+    if (edge.node.frontmatter.contenttype === 'solution') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: solutionPage,
+        context: {
+          slug: edge.node.fields.slug,
+        },
+      });
+    } else {
+      // Create post pages
+      createPage({
+        path: edge.node.fields.slug,
+        component: postPage,
+        context: {
+          slug: edge.node.fields.slug,
+          nexttitle: nextEdge.node.frontmatter.title,
+          nextslug: nextEdge.node.fields.slug,
+          prevtitle: prevEdge.node.frontmatter.title,
+          prevslug: prevEdge.node.fields.slug,
+        },
+      });
+    }
   });
 
   //  Create tag pages

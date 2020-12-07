@@ -22,30 +22,7 @@ module.exports = {
     },
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-lodash",
-    {
-      resolve: "gatsby-theme-material-ui",
-      options: {
-        stylesConfig: {
-          disableAutoprefixing: true,
-        },
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "assets",
-        path: `${__dirname}/static/`,
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "posts",
-        path: `${__dirname}/content/`,
-      },
-    },
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -56,7 +33,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 690,
+              maxWidth: 920,
             },
           },
           {
@@ -66,6 +43,49 @@ module.exports = {
           "gatsby-remark-autolink-headers",
           "gatsby-remark-prismjs",
         ],
+      },
+    },     
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/assets/uploads`,
+        name: 'uploads',
+      },
+    },    
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "posts",
+        path: `${__dirname}/content/blog/`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "solutions",
+        path: `${__dirname}/content/solutions/`,
+      },
+    },    
+    "gatsby-transformer-sharp",
+  
+    //In Gatsby-config, the order of plugins does matter 
+    // keep gatsby-plugin-sharp, gatsby-transformer-sharp, gatsby-transformer-remark
+    // on top of the list!
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "assets",
+        path: `${__dirname}/static/`,
+      },
+    },    
+    "gatsby-plugin-lodash",
+    {
+      resolve: "gatsby-theme-material-ui",
+      options: {
+        stylesConfig: {
+          disableAutoprefixing: true,
+        },
       },
     },
     {
@@ -80,8 +100,7 @@ module.exports = {
         color: config.themeColor,
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",

@@ -41,6 +41,7 @@
     "react-masonry-css": "^1.0.14",
     "react-share": "^4.3.1",
     "react-twitter-widgets": "^1.9.5",
+    "showdown": "^1.9.1",
     "url-join": "^4.0.0"
   },
   "devDependencies": {

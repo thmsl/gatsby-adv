@@ -1,0 +1,20 @@
+.solutioncontainer .gatsby-image-wrapper{
+    display: flex !important;
+}
+.solutionimagecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.solutiontitlecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.solutiontitle {
+    color: white;
+    position: absolute;
+}

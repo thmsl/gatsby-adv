@@ -15,7 +15,6 @@ export const useSolutionEdges = () => {
               }
               frontmatter {
                 title
-                permalink
               }
             }
           }

@@ -15,6 +15,7 @@ import "./post.css";
 
 export default function PostTemplate({ data, pageContext }) {
   const { slug } = pageContext;
+  console.log({data})  
   const postNode = data.markdownRemark;
   const post = postNode.frontmatter;
   if (!post.id) {

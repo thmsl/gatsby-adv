@@ -29,7 +29,6 @@ function Header({ config }) {
   };
 
   const handleClose = () => {
-    console.log({ anchorEl });
     setAnchorEl(null);
   };
 

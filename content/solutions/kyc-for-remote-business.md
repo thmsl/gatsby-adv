@@ -2,7 +2,7 @@
 title: KYC For Remote Business
 contenttype: solution
 date: 2020-12-04T09:33:13.601Z
-cover: 3740-event-website-header-bg-1906x748.jpg
+mainimage: 3740-event-website-header-bg-1906x748.jpg
 intro1: >-
   ## Traditional Know Your Customer (KYC) processes are known for face-to-face
   interaction. However, things have changed with the pandemic striking the world
