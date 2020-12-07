@@ -5,7 +5,7 @@ import showdown from 'showdown'
 const converter = new showdown.Converter()
 
 const MDContent = ({ content, className }) => (
-  <p className={className} dangerouslySetInnerHTML={{ __html: converter.makeHtml(content) }} />
+  <content className={className} dangerouslySetInnerHTML={{ __html: converter.makeHtml(content) }} />
 )
 
 MDContent.propTypes = {

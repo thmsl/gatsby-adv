@@ -1,3 +1,7 @@
+.solutioncontainer{
+    padding-bottom: 0px !important;
+}
+
 .solutioncontainer .gatsby-image-wrapper{
     display: flex !important;
 }
@@ -17,4 +21,15 @@
 .solutiontitle {
     color: white;
     position: absolute;
+}
+
+.solutionsubintro{
+    background-color: #f1f5f8;
+    color: #414141;
+    box-shadow: 104px 0 1px 0px #f1f5f8, -104px 0 1px 0px #f1f5f8;
+}
+.solutionoutro {
+    background: #488cff;
+    color: #fff;
+    box-shadow: 104px 0 1px 0px #488cff, -104px 0 1px 0px #488cff;
 }

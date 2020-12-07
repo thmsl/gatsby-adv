@@ -17,7 +17,7 @@ function SolutionDetail({ postNode }) {
 
       {/* <SocialLinks postPath={post.slug} postNode={postNode} /> */}
 
-      <Grid container spacing={2}>
+      <Grid container spacing={4}>
         <Grid item sm={12}>
           <Typography component="div">
             <MDContent content={post.intro1} />
@@ -65,7 +65,7 @@ function SolutionDetail({ postNode }) {
           </Grid>
         )}
         {post.intro2 && (
-          <Grid item sm={12}>
+          <Grid item sm={12} className="solutionsubintro">
             <Typography component="div">
               <MDContent content={post.intro2} />
             </Typography>
@@ -115,7 +115,7 @@ function SolutionDetail({ postNode }) {
         )}
 
         {post.outro && (
-          <Grid item sm={12}>
+          <Grid item sm={12} className="solutionoutro">
             <Typography component="div">
               <MDContent content={post.outro} />
             </Typography>
