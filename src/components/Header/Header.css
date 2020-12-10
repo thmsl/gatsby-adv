@@ -126,6 +126,10 @@
     text-decoration: none;
   }
 
+  .menuBar a.active {
+    color: #1A4679 !important;
+  }
+
   .dropdown-content {
     font-size: 14px;
     padding: 0 20px;

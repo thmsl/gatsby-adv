@@ -12,6 +12,7 @@ import MainLogo from "./MainLogo";
 import Fade from "@material-ui/core/Fade";
 import Grow from "@material-ui/core/Grow";
 import GetStarted from '../GetStarted/GetStarted'
+import { Link } from "gatsby"
 
 import AboutDropdown from "./AboutDropdown";
 import SolutionDropdown from "./SolutionDropdown";
@@ -44,6 +45,18 @@ function Header({ config }) {
     setMenuState((menuState) => !menuState);
   };
 
+  const isActive = ({ isCurrent }) => {
+    return isCurrent ? { className: "active" } : {}
+  }
+
+  const isPartiallyActive = ({
+    isPartiallyCurrent
+  }) => {
+    return isPartiallyCurrent
+      ? { className: "active" }
+      : {}
+  }
+
   return (
     <div className="menuBar">
       <AppBar position="fixed">
@@ -51,17 +64,17 @@ function Header({ config }) {
           <MainLogo />
           <Grow in={menuState} style={{ transformOrigin: "50% 0 0" }}>
             <div className="menu">
-              <a href="/kyc/">
+              <Link getProps={isActive} to="/kyc/">
                 <Typography className="title">Business</Typography>
-              </a>
-              <a href="/individuals/">
+              </Link>
+              <Link getProps={isActive} to="/individuals/">
                 <Typography className="title">Individuals</Typography>
-              </a>
-              <a href="/marketplace/">
+              </Link>
+              <Link getProps={isActive} to="/marketplace/">
                 <Typography className="title">Marketplace</Typography>
-              </a>
+              </Link>
               <div className="submenulink">
-                <a href="#">
+              <Link getProps={isPartiallyActive} to="about#">
                   <Typography
                     className="title"
                     aria-label="Industry solutions"
@@ -72,7 +85,7 @@ function Header({ config }) {
                   >
                     Solutions
                   </Typography>
-                </a>
+                </Link>
                 <Fade in={menuTarget === "menu-solution"}>
                   <div className="arrowmenu"></div>
                 </Fade>
@@ -120,7 +133,6 @@ function Header({ config }) {
               <GetStarted
                 variant="outlined"
                 color="secondary"
-                href="#"
                 className="signupopen"
               />
             </div>

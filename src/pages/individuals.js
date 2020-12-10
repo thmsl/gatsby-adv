@@ -4,10 +4,7 @@ import config from "../../data/SiteConfig";
 import Layout from "../layout";
 import { Grid, Typography } from "@material-ui/core";
 import GetStarted from "../components/GetStarted/GetStarted";
-import CheckIcon from "@material-ui/icons/Check";
 import "./individuals.css";
-
-import KYCDashboardCarousel from "../components/KYC/KYCDashboardCarousel";
 
 const KYCHeader = () => {
   return (
@@ -233,181 +230,181 @@ const KYCFeature = () => {
   );
 };
 
-const KYCBanner = () => {
-  return (
-    <div className="indiv-banner">
-      <div className="indivcontainer">
-        <Grid container>
-          <Grid item xs={12}>
-            <div className="diamond"></div>
-          </Grid>
-        </Grid>
-      </div>
-    </div>
-  );
-};
+// const KYCBanner = () => {
+//   return (
+//     <div className="indiv-banner">
+//       <div className="indivcontainer">
+//         <Grid container>
+//           <Grid item xs={12}>
+//             <div className="diamond"></div>
+//           </Grid>
+//         </Grid>
+//       </div>
+//     </div>
+//   );
+// };
 
-const KYCGetStarted = () => {
-  return (
-    <div className="indivcontainer">
-      <Grid container justify="center">
-        <Grid item xs={12} md={8} className="indiv-now text-center">
-          <p>
-            Start using KYC Connect™ today by registering with our console.
-            We’ve done all the hard work for you and it’s super easy to get
-            started, try it today!
-          </p>
-          <GetStarted
-            variant="contained"
-            color="primary"
-            href="#"
-            size="large"
-            className="signupopen"
-          />
-        </Grid>
-      </Grid>
-    </div>
-  );
-};
+// const KYCGetStarted = () => {
+//   return (
+//     <div className="indivcontainer">
+//       <Grid container justify="center">
+//         <Grid item xs={12} md={8} className="indiv-now text-center">
+//           <p>
+//             Start using KYC Connect™ today by registering with our console.
+//             We’ve done all the hard work for you and it’s super easy to get
+//             started, try it today!
+//           </p>
+//           <GetStarted
+//             variant="contained"
+//             color="primary"
+//             href="#"
+//             size="large"
+//             className="signupopen"
+//           />
+//         </Grid>
+//       </Grid>
+//     </div>
+//   );
+// };
 
-const KYCGo = () => {
-  return (
-    <div className="indivcontainer indiv-go ">
-      <Grid container>
-        <Grid item xs={12} className="text-center text28">
-          <h2>Signing up to Blockpass is quick and easy</h2>
-        </Grid>
-      </Grid>
+// const KYCGo = () => {
+//   return (
+//     <div className="indivcontainer indiv-go ">
+//       <Grid container>
+//         <Grid item xs={12} className="text-center text28">
+//           <h2>Signing up to Blockpass is quick and easy</h2>
+//         </Grid>
+//       </Grid>
 
-      <Grid container>
-        <Grid item xs={12} md={6}>
-          <Grid container>
-            <Grid item xs={12} md={2}>
-              <img
-                src="https://blockpass.org/wp-content/themes/blockpass/images/go-robot.svg"
-                alt=""
-              />
-            </Grid>
-            <Grid item xs={12} md={10}>
-              <h3>Fully automated</h3>
-              <p>
-                The entire process of signing up to KYC ConnectTM is now fully
-                automated, from beginning to the end.
-              </p>
-            </Grid>
-          </Grid>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Grid container>
-            <Grid item xs={12} md={2}>
-              <img
-                src="https://blockpass.org/wp-content/themes/blockpass/images/go-forward.svg"
-                alt=""
-              />
-            </Grid>
-            <Grid item xs={12} md={10}>
-              <h3>Quick and simple process</h3>
-              <p>
-                Fast track your way to a professional KYC solution. We’ve
-                streamlined the process to get you up and running faster.
-              </p>
-            </Grid>
-          </Grid>
-        </Grid>
-      </Grid>
-      <Grid container>
-        <Grid item xs={12} md={6}>
-          <Grid container>
-            <Grid item xs={12} md={2}>
-              <img
-                src="https://blockpass.org/wp-content/themes/blockpass/images/go-laptop.svg"
-                alt=""
-              />
-            </Grid>
-            <Grid item xs={12} md={10}>
-              <h3>Easy access to information</h3>
-              <p>
-                Online signups allow you to access all information, legal and
-                technical documents from our portal.
-              </p>
-            </Grid>
-          </Grid>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Grid container>
-            <Grid item xs={12} md={2}>
-              <img
-                src="https://blockpass.org/wp-content/themes/blockpass/images/go-arrows.svg"
-                alt=""
-              />
-            </Grid>
-            <Grid item xs={12} md={10}>
-              <h3>Easy to integrate</h3>
-              <p>
-                Blockpass KYC ConnectTM service, you simply plug a solution into
-                an already existing infrastructure and get going.
-              </p>
-            </Grid>
-          </Grid>
-        </Grid>
-      </Grid>
-      <Grid container>
-        <Grid item xs={12} className="text-center">
-          <GetStarted
-            variant="contained"
-            color="primary"
-            className="signupopen"
-            size="large"
-          />
-        </Grid>
-      </Grid>
-    </div>
-  );
-};
+//       <Grid container>
+//         <Grid item xs={12} md={6}>
+//           <Grid container>
+//             <Grid item xs={12} md={2}>
+//               <img
+//                 src="https://blockpass.org/wp-content/themes/blockpass/images/go-robot.svg"
+//                 alt=""
+//               />
+//             </Grid>
+//             <Grid item xs={12} md={10}>
+//               <h3>Fully automated</h3>
+//               <p>
+//                 The entire process of signing up to KYC ConnectTM is now fully
+//                 automated, from beginning to the end.
+//               </p>
+//             </Grid>
+//           </Grid>
+//         </Grid>
+//         <Grid item xs={12} md={6}>
+//           <Grid container>
+//             <Grid item xs={12} md={2}>
+//               <img
+//                 src="https://blockpass.org/wp-content/themes/blockpass/images/go-forward.svg"
+//                 alt=""
+//               />
+//             </Grid>
+//             <Grid item xs={12} md={10}>
+//               <h3>Quick and simple process</h3>
+//               <p>
+//                 Fast track your way to a professional KYC solution. We’ve
+//                 streamlined the process to get you up and running faster.
+//               </p>
+//             </Grid>
+//           </Grid>
+//         </Grid>
+//       </Grid>
+//       <Grid container>
+//         <Grid item xs={12} md={6}>
+//           <Grid container>
+//             <Grid item xs={12} md={2}>
+//               <img
+//                 src="https://blockpass.org/wp-content/themes/blockpass/images/go-laptop.svg"
+//                 alt=""
+//               />
+//             </Grid>
+//             <Grid item xs={12} md={10}>
+//               <h3>Easy access to information</h3>
+//               <p>
+//                 Online signups allow you to access all information, legal and
+//                 technical documents from our portal.
+//               </p>
+//             </Grid>
+//           </Grid>
+//         </Grid>
+//         <Grid item xs={12} md={6}>
+//           <Grid container>
+//             <Grid item xs={12} md={2}>
+//               <img
+//                 src="https://blockpass.org/wp-content/themes/blockpass/images/go-arrows.svg"
+//                 alt=""
+//               />
+//             </Grid>
+//             <Grid item xs={12} md={10}>
+//               <h3>Easy to integrate</h3>
+//               <p>
+//                 Blockpass KYC ConnectTM service, you simply plug a solution into
+//                 an already existing infrastructure and get going.
+//               </p>
+//             </Grid>
+//           </Grid>
+//         </Grid>
+//       </Grid>
+//       <Grid container>
+//         <Grid item xs={12} className="text-center">
+//           <GetStarted
+//             variant="contained"
+//             color="primary"
+//             className="signupopen"
+//             size="large"
+//           />
+//         </Grid>
+//       </Grid>
+//     </div>
+//   );
+// };
 
-const KYCPowerful = () => {
-  return (
-    <div className="powerfulcontainer">
-      <Grid container className="indivcontainer" justify="center">
-        <Grid item xs={12} className="text-center">
-          <h2>A powerful and flexible out-of-the-box tool for onboarding</h2>
-        </Grid>
-        <Grid item xs={12} md={10} className="text-center">
-          <p>
-            Seamless onboarding of your customers using the Blockpass secure
-            eKYC system. Blockpass users create a pre-verified identity before
-            signing up for your service, meaning that documentation delivery and
-            verification is streamlined. The Blockpass ecosystem has an existing
-            pool of pre-verified users interested in new fintech opportunities
-            and services.
-          </p>
-          <GetStarted
-            variant="outlined"
-            color="secondary"
-            href="#"
-            size="large"
-            className="signupopen"
-          />
-        </Grid>
-      </Grid>
-    </div>
-  );
-};
+// const KYCPowerful = () => {
+//   return (
+//     <div className="powerfulcontainer">
+//       <Grid container className="indivcontainer" justify="center">
+//         <Grid item xs={12} className="text-center">
+//           <h2>A powerful and flexible out-of-the-box tool for onboarding</h2>
+//         </Grid>
+//         <Grid item xs={12} md={10} className="text-center">
+//           <p>
+//             Seamless onboarding of your customers using the Blockpass secure
+//             eKYC system. Blockpass users create a pre-verified identity before
+//             signing up for your service, meaning that documentation delivery and
+//             verification is streamlined. The Blockpass ecosystem has an existing
+//             pool of pre-verified users interested in new fintech opportunities
+//             and services.
+//           </p>
+//           <GetStarted
+//             variant="outlined"
+//             color="secondary"
+//             href="#"
+//             size="large"
+//             className="signupopen"
+//           />
+//         </Grid>
+//       </Grid>
+//     </div>
+//   );
+// };
 
-const KYCVideo = () => {
-  // Video is quite old. Will do later
-  return (
-    <div class="videocontainer">
-      <Grid container justify="center" className="indivcontainer">
-        <Grid item xs={12} md={8} className="text-center">
-          <h2 class="textcenter">
-            Discover how KYC Connect™ is transforming personal identity
-          </h2>
-        </Grid>
-      </Grid>
-    </div>
-  );
-};
+// const KYCVideo = () => {
+//   // Video is quite old. Will do later
+//   return (
+//     <div class="videocontainer">
+//       <Grid container justify="center" className="indivcontainer">
+//         <Grid item xs={12} md={8} className="text-center">
+//           <h2 class="textcenter">
+//             Discover how KYC Connect™ is transforming personal identity
+//           </h2>
+//         </Grid>
+//       </Grid>
+//     </div>
+//   );
+// };
 
 function KYC() {
   return (
