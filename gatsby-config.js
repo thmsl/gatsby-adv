@@ -62,6 +62,13 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "marketplace",
+        path: `${__dirname}/content/marketplace/`,
+      },
+    },    
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "solutions",
         path: `${__dirname}/content/solutions/`,
       },

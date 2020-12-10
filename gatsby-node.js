@@ -74,69 +74,6 @@ exports.createPages = async ({ graphql, actions }) => {
               tag
               category
               date
-              intro1
-              text1
-              image1 {
-                childImageSharp {
-                  resolutions(width: 400) {
-                    width
-                    height
-                    src
-                  }
-                }
-              } 
-              text2
-              image2 {
-                childImageSharp {
-                  resolutions(width: 400) {
-                    width
-                    height
-                    src
-                  }
-                }
-              }
-              text3 
-              image3 {
-                childImageSharp {
-                  resolutions(width: 400) {
-                    width
-                    height
-                    src
-                  }
-                }
-              }
-              intro2
-              text4
-              image4 {
-                childImageSharp {
-                  resolutions(width: 400) {
-                    width
-                    height
-                    src
-                  }
-                }
-              }
-              text5
-              image5 {
-                childImageSharp {
-                  resolutions(width: 400) {
-                    width
-                    height
-                    src
-                  }
-                }
-              }
-              text6
-              image6 {
-                childImageSharp {
-                  resolutions(width: 400) {
-                    width
-                    height
-                    src
-                  }
-                }
-              }
-              outro
             }
           }
         }

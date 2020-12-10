@@ -74,7 +74,7 @@ function Header({ config }) {
                 <Typography className="title">Marketplace</Typography>
               </Link>
               <div className="submenulink">
-              <Link getProps={isPartiallyActive} to="about#">
+              <Link getProps={isPartiallyActive} to="#">
                   <Typography
                     className="title"
                     aria-label="Industry solutions"
