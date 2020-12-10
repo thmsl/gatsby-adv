@@ -1,29 +1,29 @@
 /* default */
 @media only screen and (min-width: 1px) {
-  .kyc-header {
+  .indiv-header {
     color: #fff;
     text-align: left;
-    background: linear-gradient(90deg,  rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1) ), url('https://blockpass.org/wp-content/themes/blockpass/images/kyc-go.old.jpg');
+    background-image: url(https://blockpass.org/wp-content/themes/blockpass/images/kyc-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 52%;
   }
-  .kyccontainertext {
+  .indivcontainertext {
     font-size: 24px;
   }
-  .kyccontainer {
+  .indivcontainer {
     max-width: 1160px;
     padding: 50px 20px;
     margin: auto;
   }
-  .kycintrocontainer {
+  .indivintrocontainer {
     font-size: 24px;
   }
-  .kyc-phone {
+  .indiv-phone {
     margin: auto;
     display: block;
   }  
-  .kycwhycontainer {
+  .indivwhycontainer {
     background-color: #488cff;
     color: #fff;
     font-size: 20px;
@@ -34,10 +34,10 @@
     margin-top: 20px;
     margin-bottom: -10px;
   }
-  .kycwhycontainer .MuiGrid-item {
+  .indivwhycontainer .MuiGrid-item {
     text-align: center;
   }
-  .kycfeaturecontainer {
+  .indivfeaturecontainer {
     background: #f1f5f8;
     color: #414141;
     font-size: 20px;
@@ -49,13 +49,13 @@
     display: block;
     margin: auto;
   }
-  .kycfeaturelist .MuiSvgIcon-root {
+  .indivfeaturelist .MuiSvgIcon-root {
     font-size: 20px;
     transform: translateY(0px);
     position: absolute;
     left: 0px;
   }
-  .kycfeaturelist {
+  .indivfeaturelist {
     font-weight: bold;
     padding-left: 30px;
     position: relative;
@@ -64,8 +64,8 @@
     transform: translateY(10px);
     font-size: 50px;
   }
-  .kyc-banner {
-    background-image: url(https://blockpass.org/wp-content/themes/blockpass/images/kyc-overview-tiles.jpg);
+  .indiv-banner {
+    background-image: url(https://blockpass.org/wp-content/themes/blockpass/images/indiv-overview-tiles.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -78,14 +78,14 @@
     margin: -90px auto;
     position: relative;
   }
-  .kyc-now {
+  .indiv-now {
     font-size: 24px;
   }
-  .kyc-go {
+  .indiv-go {
       font-size: 20px;
       text-align: center;
   }
-  .kyc-go img {
+  .indiv-go img {
     width: 40px;
     margin: auto;
     float: none;
@@ -119,17 +119,17 @@
     margin: 20px;
     margin-left:40px;
   }
-  .kyc-go img {
+  .indiv-go img {
     width: 50%;
     margin: 20px;
     float: right;      
   }
-  .kyc-go {
+  .indiv-go {
       text-align: left;
   }
-  .kyc-phone {
+  .indiv-phone {
     margin: auto;
-    margin-top: -155px;
+    margin-top: -200px;
     float: right;
   }  
 }

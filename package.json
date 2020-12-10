@@ -40,8 +40,10 @@
     "react-helmet": "^6.1.0",
     "react-masonry-css": "^1.0.14",
     "react-share": "^4.3.1",
+    "react-slick": "^0.27.13",
     "react-twitter-widgets": "^1.9.5",
     "showdown": "^1.9.1",
+    "slick-carousel": "^1.8.1",
     "url-join": "^4.0.0"
   },
   "devDependencies": {
